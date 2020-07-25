@@ -1,12 +1,15 @@
 ---
 layout: post
 title: The Rise of Modern Programming Languages
+excerpt_separator: <!--more-->
 ---
 ### Introduction
 
 The year **1995** was a particularly interesting year in the computer programming world. It is in this year that four new programming languages were released that would go on to influence the global programming community in ways that were not anticipated at the time of their official announcements. Incidentally, this was also the time that the web was just beginning to make waves and the Internet was on the verge of exploding into the mainstream digital culture.
 
-The four languages that made their debut in 1995 were **Java**, **JavaScript**, **PHP** and **Ruby**. Although there wasn't any much fanfare accompanying their respective releases, these languages would eventually grow to become ubiquitous programming tools to most sofware developers. Up until that time, **C** and **C++** were the dominant languages. Despite the fact that these two were very powerful, they were not inherently suited for the world-wide web. In addition they were often considered to be a little complicated and intimidating to novice programmers (especially C++).
+<!--more-->
+
+The four languages that made their debut in 1995 were **Java**, **JavaScript**, **PHP** and **Ruby**. Although there wasn't any much fanfare accompanying their respective releases, these languages would eventually grow to become ubiquitous programming tools to most software developers. Up until that time, **C** and **C++** were the dominant languages. Despite the fact that these two were very powerful, they were not inherently suited for the world-wide web. In addition they were often considered to be a little complicated and intimidating to novice programmers (especially C++).
 
 Among the four, **Java** proved to be a runaway success. With its oft quoted slogan of "**Write Once, Run Anywhere**", Java became an instant hit as it was much easier to learn and master (compared to C++). Java also introduced the novel idea of a Virtual Machine (**JVM**), that made it possible to write programs that would be run on different platforms without the need for recompilations.
 
@@ -68,9 +71,9 @@ Applications written in Scala run on top of the JVM, hence they are easily porta
 A simple function declaration in Scala is as follows:
 
 	def factorial(x: Int): Int = {
-	
+
 	      // The body of the function goes here...
-	
+
 	}
 
 A function in Scala is declared using the `def` keyword (similar to Python and Ruby). This is followed by the name of the function, in this case **factorial**, then a list of parameters in a pair of parentheses. Note that the parameter, in this case ***x***, is followed by a colon (**:**) and then its data type (`Int`, for an integer). If there are more than one parameter in the list, then they should be separated by a comma.
@@ -99,7 +102,7 @@ A simple example is shown below:
 
 	import scala.actors.Actor
 	import scala.actors.Actor._
-	
+
 	val simpleActor = actor {
 	      loop {
 	            receive {
@@ -109,7 +112,7 @@ A simple example is shown below:
 	            }
 	      }
 	}
-	
+
 	simpleActor ! "scala is awesome"
 	simpleActor ! 32
 	simpleActor ! 32.134
@@ -146,15 +149,15 @@ One of the authoritative books on Scala is [Programming in Scala](https://www.am
 This is a language that was created by Google for its own internal use (Google deals with highly distributed systems). [Go](https://golang.org/) is particularly interesting because one of its designers (**Ken Thompson**) is a folklore hero in computer science. He is the creator of the venerable **UNIX** operating system, which he designed in the early 1970s while working at Bell Labs. Go was announced in 2009 and has since been released as an **open-source** project. The designers of the language have indicated that one of their motivations was their shared frustrations with the complexity inherent in C++.
 
 Go is often touted as being '**C for the 21st Century**'. It is a compiled language (with much faster compile times compared to C/C++), and has automatic memory management through the use of a **garbage collector**.
- 
+
 One of the strengths of Go is how it handles concurrency using **goroutines** and **channels**.
 
 A simple function declaration in Go looks as follows:
 
 	func factorial(x int) int {
-	
+
 	     // The body of the function goes here....
-	 
+
 	}
 
 A function in Go is declared using the `func` keyword. This is followed by the name of the function and a list of parameters in a pair of parentheses. In this case, the factorial function only takes one argument, an integer **x**. The function also '***returns***' an integer, as indicated by the `int` keyword after the closing parenthesis of the argument list. The body of the function is enclosed within a pair of curly braces. Similar to Scala, the function return type comes **after** the name of the function (**trailing return type**), not before, as is the case with C or Java.
@@ -163,7 +166,7 @@ Variables in Go are declared using the keyword `var` like shown below:
 
 	var s string
 	s = "Welcome to Go"
-	
+
 Of course, the declaration and initialization can be done at same time like so:
 
 	var s string = "Welcome to Go"
@@ -184,19 +187,19 @@ A simple example is shown below:
 	func main() {
 	    c1 := make(chan string)
 	    c2 := make(chan string)
-	    
+
 	    go func() {
 	        for {
 	            c1 <- "hello from channel 1"
 	        }
 	    }()
-	    
+
 	    go func() {
 	        for {
 	            c2 <- "hello from channel 2"
 	        }
 	    }()
-	    
+
 	    go func() {
 	        for {
 	            select {
@@ -209,7 +212,7 @@ A simple example is shown below:
 	            }
 	        }
 	    }()
-	    
+
 	    var input string
 	    fmt.Scanln(&input)
 	}
@@ -225,14 +228,14 @@ In this case we use the built-in `make` function to create a channel called **c1
 The left arrow operator (**<-**) is used to send (and receive) messages through the channel as shown below:
 
 	c1 <- "hello from channel 1"
-	
+
 In this case, the string message '*hello from channel 1*' is '**send**' to the channel **c1**.
 
 The receive construct is shown below:
 
 	msg1 := <- c1
-	
-The code snippet above can be interpreted as: 
+
+The code snippet above can be interpreted as:
 
    "receive a message from channel **c1** and store it in **msg1**."
 
@@ -261,38 +264,38 @@ Out of the three, Rust takes **safety** more seriously. It enforces safety throu
 A simple function declaration in Rust looks like this:
 
 	fn factorial(x: i32) -> i32 {
-	
+
 	    // The body of the function goes here....
-	
+
 	}
-	
+
 By now, I am sure that you can tell what is going on in the code snippet above.
 
-A function in Rust is declared using the keyword `fn`. This is followed by the name of the function and a list of arguments within a pair of parentheses. For the case above, we only have one argument, **x**, which is a 32-bit signed `integer` number. Note that the type of the function argument must be declared; and if there more than one arguments, they should be separated by commas. 
+A function in Rust is declared using the keyword `fn`. This is followed by the name of the function and a list of arguments within a pair of parentheses. For the case above, we only have one argument, **x**, which is a 32-bit signed `integer` number. Note that the type of the function argument must be declared; and if there more than one arguments, they should be separated by commas.
 
 The function returns another 32-bit signed integer number, as indicated by the right arrow operator (**->**) and `i32` after it.
 
 Variables in Rust are **immutable** by default (safety is taken very seriously in Rust!), and they are declared using the keyword `let`, as shown below:
 
 	let x = 7;
-	
+
 The code above declares a local variable and assigns it a value of *7*. The code snippet is officially called a ***variable binding*** in Rust. In this case, **7** is '*bound*' to the variable ***x***.
 The Rust compiler will infer the type of ***x*** as `i32`.
 
 The idea of variable bindings allows for pattern matching as shown below:
 
 	let (x, y) = (7, 13);
-	
+
 In this case, 7 will be bound to ***x*** and 13 to ***y***.
 
 The type of the variable may be explicitly declared as shown below:
 
 	let x: i32 = 7;
-	
+
 If a variable will need to change after its initialization, then we should add the keyword `mut` (mutable) like so:
 
 	let mut x = 7;
-	
+
 N/B: Unlike most of the other languages surveyed in this article, Rust requires a semicolon as a statement terminator (although there are a few exceptions to this rule).
 
 ***Concurrency in Rust***:
@@ -304,7 +307,7 @@ Threads in Rust are created by using the following syntax:
 	let thread = std::thread::spawn(|| {
 	       println!("Graydon");
 	});
-	
+
 In order to create a new thread, we use the `spawn()` function from the standard thread library: **std::thread**.
 
 The `spawn()` function takes as its argument a ***closure***, which in this case prints out a `string`.
@@ -315,29 +318,29 @@ Just like in Go, threads in Rust communicate through **channels**. This is illus
 
 	use std::thread;
 	use std::sync::mpsc;
-	
+
 	fn main() {
 	   let (tx, rx) = mpsc::channel();
-	   
+
 	   for _ in 0..10 {
 	        let tx = tx.clone();
-	        
+
 	        thread::spawn(move || {
 	             let result = 77u32;
-	             
+
 	             tx.send(result);
 	        });
 	   }
-	   
+
 	   rx.recv().ok().expect("could not receive the result.");
 	}
-	
+
 First we begin by importing the standard thread and synchronization (`sync`) libraries.
 
 A channel is created by calling the `channel()` method from the **std::sync::mpsc** package, as shown below:
 
 	let (tx, rx) = mpsc::channel();
-	
+
 In this case the channel is bound to a tuple of **arity** 2 (Arity refers to the number of arguments an operation takes).
 
 The initials in **mpsc** stand for "*multiple producer, single consumer*." This means that the '*sending*' end of a channel (in this case, ***tx***), can be ***cloned*** (copies of it can be made), and used by as many threads as you would like to enqueue values; but the '*receiving*' end of the channel (in this case, ***rx***) cannot be cloned, so only a single thread is allowed to extract values from the queue.
@@ -354,11 +357,11 @@ Rust's standard synchronization package (**std::sync**) offers two more types th
 
 	use std::sync::Mutex;
 	use std::sync::Arc;
-	
+
 The above import can also be done using just a single line, like so:
 
 	use std::sync::{Mutex, Arc};
-	
+
 The ***Mutex*** type offers **locks** through its `lock` method. This ensures that two threads cannot claim ownership of the same piece of data at the same time.
 
 The initials in **Arc** stand for '*Atomic reference count*'. The ***Arc*** type ensures that sharing immutable data is **threadsafe**. It tries to avoid **data races** between multiple threads.
@@ -368,7 +371,7 @@ Finally, Rust offers a robust package manager called **Cargo**. This helps in ma
 The following code snippet shows how you can use a library crate called `rand`, that offers random number functionality:
 
 	extern crate rand;
-	
+
 The `extern` keyword indicates that this is an *external* library (***crate***).
 
 Another area that Rust excels in is its support for **FFI** (Foreign Function Interface). This means that it can easily be embedded inside of other languages.
@@ -397,11 +400,11 @@ One of the stated goals of Kotlin is to be fully interoperable with Java and run
 A simple function declaration in Kotlin looks like this:
 
 	fun factorial(x: Int): Int {
-	
+
 	       // The body of the function goes here...
-	
+
 	}
-	
+
 This code block looks very similar to the Scala code shown previously, and therefore it doesn't require much explanation. The only thing to note here is that in Kotlin, a function is declared using the keyword `fun`.
 In this case, the function takes one argument of type `Int` and returns an `Int` as well.
 
@@ -409,7 +412,7 @@ Just like in Scala, variables in Kotlin are declared using either `val` or `var`
 
 	val x: Int = 3
 	var y = 7
-	
+
 In this case, ***x*** is an immutable variable of type `Int`, while ***y*** is mutable. The type of ***y*** is inferred as `Int`.
 
 ***Concurrency in Kotlin***:
@@ -419,7 +422,7 @@ Compared to the three languages discussed above, I consider the implementation o
 Kotlin uses ***coroutines*** to implement concurrency (although the last time I checked, it was still in the experimental phase). It applies the concept of ***suspension***, which means that computations can be suspended without blocking a running thread.
 
 The list below shows some good Kotlin resources for further reading:
- 
+
 >* [Kotlin in Action](https://www.amazon.com/Kotlin-Action-Dmitry-Jemerov/dp/1617293296), a book by two core Kotlin developers at JetBrains.
 * [Kotlin for Android Developers](https://leanpub.com/kotlin-for-android-developers) by Antonio Leiva.
 * Kotlin's own documentation which can be downloaded as a [PDF](https://kotlinlang.org/docs/kotlin-docs.pdf) file.
@@ -437,11 +440,11 @@ Most of Swift code looks a bit similar to code written in Rust.
 A simple function declaration in Swift is written as shown below:
 
 	func factorial(x: Int) -> Int {
-	
+
 	        // The body of the function goes here...
-	
+
 	}
-	
+
 Again, this should look very familiar by now. A function in Swift is declared using the keyword `func` (similar to **Go**). In this particular instance, the function has one argument of type `Int` and has an `Int` as its return type.
 
 Swift makes a clear distinction between immutable and mutable variables. Immutable variables are called ***constants*** while their mutable counterparts are just called ***variables*** (as expected).
@@ -450,7 +453,7 @@ Constants are declared using the `let` keyword while variables are declared usin
 
 	let str: String = "Welcome to Swift Programming"
 	var x = 10
-	
+
 The first line declares a constant ***str*** of type `String`, while the second line declares a variable ***x*** whose type is inferred as `Int`.
 
 ***Concurrency in Swift***:
@@ -463,7 +466,7 @@ The only great resource that I have found for learning Swift is the free manual 
 
 ### Conclusion
 
-This relatively long post has attempted to present a broad overview of some of the most common modern programming languages. My main aim has been to give a comprehensive survey of the modern programming landscape, and the languages that are shaping it, for better or worse. 
+This relatively long post has attempted to present a broad overview of some of the most common modern programming languages. My main aim has been to give a comprehensive survey of the modern programming landscape, and the languages that are shaping it, for better or worse.
 
 It should be noted clearly that I am not a language design expert. What I have discussed here should be taken as my own assessment of the respective languages and how they try to solve the problems that were articulated at the beginning of this essay.
 
