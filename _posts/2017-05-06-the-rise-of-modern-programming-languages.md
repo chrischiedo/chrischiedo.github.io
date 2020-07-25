@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 ---
 ### Introduction
 
-The year **1995** was a particularly interesting year in the computer programming world. It is in this year that four new programming languages were released that would go on to influence the global programming community in ways that were not anticipated at the time of their official announcements. Incidentally, this was also the time that the web was just beginning to make waves and the Internet was on the verge of exploding into the mainstream digital culture.
+**1995** was a particularly interesting year in the computer programming world. It is in this year that four new programming languages were released that would go on to influence the global programming community in ways that were not anticipated at the time of their official announcements. Incidentally, this was also the time that the web was just beginning to make waves and the Internet was on the verge of exploding into the mainstream digital culture.
 
 <!--more-->
 
