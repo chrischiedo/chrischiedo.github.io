@@ -4,7 +4,7 @@ title: Books
 permalink: /books/
 ---
 
-1. **Algorithms by Robert Sedgewick and Kevin Wayne. Publisher: Addison-Wesley**.
+**Algorithms by Robert Sedgewick and Kevin Wayne**.
 
 ![Algorithms-Sedgewick](/images/books/Book1.jpg){: .center}
 
@@ -21,9 +21,9 @@ Here are some of the great concepts that the book covers:
   - Strings: String Sorts and Tries, etc
   - And a lot more...
 
-The Amazon link for the book can be found [here](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X)
 
-2. **The Algorithm Design Manual by Steven Skiena. Publisher: Springer**.
+
+**The Algorithm Design Manual by Steven Skiena**.
 
 ![Steven-Skiena](/images/books/Book6.jpg){: .center}
 
@@ -36,4 +36,3 @@ Here are some of the great concepts that the book covers:
   - Examples of Intractable Problems - E.g. P vs. NP, and NP-complete Problems.
   - And a lot more...
 
-The Amazon link for the book can be found [here](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202)
