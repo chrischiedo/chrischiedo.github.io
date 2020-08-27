@@ -9,7 +9,7 @@ Hello! My name is Chrispine Chiedo. I am a Distributed Systems Researcher and En
 
 I am deeply interested in Blockchain Technology, and how its power can be harnessed by both public and private business enterprises to streamline processes and unlock economic value.
 
-I am passionate about STEM education and the role of science and technology in society. I have spent a good chunk of my professional life (so far) working in the technical education space: as an engineering instructor, a curriculum developer and as a Head of Department (Engineering and ICT) in a technical training institute.
+I am passionate about STEM education and the role of science and technology in society. I have spent a good chunk of my professional life (so far) working in the technical training space: as a software development learning facilitator, an engineering instructor, a technical curriculum developer and as a Head of Department (ICT and Engineering) in a technical training institute.
 
 Most recently, I have been spending most of my time carrying out independent research on distributed systems (specifically, distributed consensus algorithms) and security in Blockchain-based applications (specifically, smart contracts and protocol implementations).
 
