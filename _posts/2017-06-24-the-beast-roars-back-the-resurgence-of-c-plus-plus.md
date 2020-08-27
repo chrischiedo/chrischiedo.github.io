@@ -1,9 +1,12 @@
 ---
 layout: post
 title: The Beast Roars Back The Resurgence of C++
+excerpt_separator: <!--more-->
 ---
 ### Introduction
-Since its inception in 1979 as "**C with Classes**", ***C++*** has grown to become a powerful tool for millions of software developers all over the world. According to a 2015 [survey](https://blog.jetbrains.com/clion/2015/07/infographics-cpp-facts-before-clion/) done by **JetBrains**, there were around **4.4 million** C++ developers all across the globe. Over its long and often tumultuous history, the language has seen its fair share of ups and downs. It has constantly tried to fend off numerous accusations leveled against it, such as the fact that it's an extremely **complex** and **intimidating** language to learn. In recent history, other languages that are perceived to be less complicated and easier to learn have overtaken C++ in popularity within the programming circles. One such language has been **Java**. Right from its announcement in 1995, Java took the programming community by storm, owing to the fact that it was much friendlier to novices. In addition, programs written in Java were meant to run atop the **JVM**, hence making Java programs highly portable, unlike C++ programs.
+Since its inception in 1979 as "**C with Classes**", ***C++*** has grown to become a powerful tool for millions of software developers all over the world. According to a 2015 [survey](https://blog.jetbrains.com/clion/2015/07/infographics-cpp-facts-before-clion/) done by **JetBrains**, there were around **4.4 million** C++ developers all across the globe. Over its long history, the language has seen its fair share of ups and downs. It has constantly tried to fend off numerous accusations leveled against it, such as the fact that it's an extremely **complex** and **intimidating** language to learn. In recent history, other languages that are perceived to be less complicated and easier to learn have overtaken C++ in popularity within the programming circles. One such language has been **Java**. Right from its announcement in 1995, Java took the programming community by storm, owing to the fact that it was much friendlier to novices. In addition, programs written in Java were meant to run atop the **JVM**, hence making Java programs highly portable, unlike C++ programs.
+
+<!--more-->
 
 Despite its gloomy past, all has not been lost for C++. The language is still the most preferred for writing applications where **performance** is the most crucial consideration. Examples of such applications include:
 
