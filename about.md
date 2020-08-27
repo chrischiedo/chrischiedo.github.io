@@ -11,18 +11,18 @@ I am deeply interested in Blockchain Technology, and how its power can be harnes
 
 I am passionate about STEM education and the role of science and technology in society. I have spent a good chunk of my professional life (so far) working in the technical education space: as an engineering instructor, a curriculum developer and as a Head of Department (Engineering and ICT) in a technical training institute.
 
-More recenlty, I have been spending most of my time carrying out independent research on distributed systems (specifically, distributed consensus algorithms) and security in Blockchain-based applications (specifically, smart contracts and protocol implementations).
+Most recently, I have been spending most of my time carrying out independent research on distributed systems (specifically, distributed consensus algorithms) and security in Blockchain-based applications (specifically, smart contracts and protocol implementations).
 
 **Competencies:**
 
-*Technical Skills
+*Technical Skills*
  - Programming Languages: Python, Java, C#, Rust
  - Libraries & Frameworks: Django/Flask, Angular, ASP.NET MVC Core
  - Tools & Platforms: Git/Github, Heroku, Travis-CI, VS Code, PyCharm, IntelliJ IDEA, JVM, .NET Core
  - Databases/Data Stores: PostgreSQL, MySQL, Redis
  - Blockchain Platforms: Ethereum (Truffle, Ganache, Solidity), Hyperledger Fabric
 
-*Non-Technical/Business Skills
+*Non-Technical/Business Skills*
  - Business Analysis
  - Strategic Thinking
  - Project Scoping/Estimation (End-to-End)
