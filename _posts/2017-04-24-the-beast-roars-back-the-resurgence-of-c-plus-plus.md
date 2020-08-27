@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Beast Roars Back The Resurgence of C++
+title: The Beast Roars Back (The Resurgence of C++)
 excerpt_separator: <!--more-->
 ---
 ### Introduction
