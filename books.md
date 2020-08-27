@@ -4,7 +4,7 @@ title: Books
 permalink: /books/
 ---
 
-**Algorithms by Robert Sedgewick and Kevin Wayne**.
+**Algorithms** by *Robert Sedgewick* and *Kevin Wayne*.
 
 ![Algorithms-Sedgewick](/images/books/Book1.jpg){: .center}
 
@@ -23,7 +23,7 @@ Here are some of the great concepts that the book covers:
 
 
 
-**The Algorithm Design Manual by Steven Skiena**.
+**The Algorithm Design Manual** by *Steven Skiena*.
 
 ![Steven-Skiena](/images/books/Book6.jpg){: .center}
 
