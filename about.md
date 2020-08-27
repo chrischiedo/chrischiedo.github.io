@@ -21,6 +21,7 @@ Most recently, I have been spending most of my time carrying out independent res
  - Tools & Platforms: Git/Github, Heroku, Travis-CI, VS Code, PyCharm, IntelliJ IDEA, JVM, .NET Core
  - Databases/Data Stores: PostgreSQL, MySQL, Redis
  - Blockchain Platforms: Ethereum (Truffle, Ganache, Solidity), Hyperledger Fabric
+ - Technical Curriculum Design and Implementation
 
 *Non-Technical/Business Skills*
  - Business Analysis
