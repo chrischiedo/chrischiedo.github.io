@@ -5,34 +5,33 @@ permalink: /about/
 ---
 
 
-Hello! My name is Chrispine Chiedo. I am a Distributed Systems Researcher and Engineer.
+Hello! My name is Chrispine Chiedo. I am a Distributed Systems Researcher, with a keen eye on Blockchain technology.
 
-I am deeply interested in Blockchain Technology, and how its power can be harnessed by both public and private business enterprises to streamline processes and unlock economic value.
+I have deep interest in the following areas:
+- Distributed Systems in general, and Blockchain protocols/platforms in particular.
+- Programming Languages (Functional programming paradigm and Language Concurrency models)
+- STEM Education/Training and Technical Curriculum Design
 
-I am passionate about STEM education and the role of science and technology in society. I have spent a good chunk of my professional life (so far) working in the technical training space: as a software development learning facilitator, an engineering instructor, a technical curriculum developer and as a Head of Department (ICT and Engineering) in a technical training institute.
-
-Most recently, I have been spending most of my time carrying out independent research in distributed systems (specifically, distributed consensus algorithms) and security in Blockchain-based applications (specifically, smart contracts and protocol implementations).
+I have spent a good chunk of my professional life (so far) working in the technical training space: As a software development learning facilitator, an engineering instructor, a technical curriculum developer and as a Head of Department (ICT and Engineering) in a technical training institute.
 
 **Competencies:**
 
-*Technical Skills*
- - Programming Languages: Python, C#, C/C++, Rust
- - Libraries & Frameworks: Django/Flask, Angular, ASP.NET MVC Core
- - Tools & Platforms: Git/Github, Heroku, Travis-CI, VS Code, PyCharm, IntelliJ IDEA, JVM, .NET Core
+*Technical Proficiencies*
+ - Programming Languages: Python, Java, C#, C/C++, Rust
+ - Libraries & Frameworks: Django, Flask, Angular, ASP.NET Core MVC
+ - Tools & Platforms: Git/Github, Heroku, Travis-CI, VS Code, PyCharm, IntelliJ IDEA, .NET Core
  - Databases/Data Stores: PostgreSQL, MySQL, Redis
- - Blockchain Platforms: Ethereum (Truffle, Ganache, Solidity), Hyperledger Fabric
- - Technical Curriculum Design and Implementation
+ - Blockchain Protocols/Platforms: Ethereum (Truffle, Ganache, Solidity), Hyperledger Fabric
 
-*Non-Technical/Business Skills*
- - Business Analysis
+*Other Skills*
+ - Technical Curriculum Design and Development
+ - Technical Writing
+ - Technical Training/Teaching
  - Strategic Thinking
- - Project Scoping/Estimation (End-to-End)
- - Stakeholder Management
- - Project Roadmap creation(phases/milestones)
- - Tracking Project/Program Success Metrics/KPIs
- - Agile Project Management techniques and/or tools (Scrum, Jira, etc)
- - Working with remote/geographically distributed teams
+ - Stakeholder/People Management
+ - Agile Project Management techniques/tools (e.g Scrum, Jira)
+ - Remote Work (working with geographically distributed teams)
 
 I am currently pursuing my Master's degree in Distributed Computing Technology at the [University of Nairobi](https://www.uonbi.ac.ke/), School of Computing and Informatics.
 
-I am also available for collaboration as a Blockchain developer, trainer or consultant. Feel free to get in touch!
+I like working with small, highly motivated teams that care deeply about delivering high quality results.

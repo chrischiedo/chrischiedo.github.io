@@ -1,1 +1,1 @@
-This is the code behind [chrischiedo.github.io](https://chrischiedo.github.io/). I have used [Jekyll now](https://github.com/barryclark/jekyll-now), which is fantastic! Site is hosted by GitHub pages.
+This is the code behind [chrischiedo.github.io](https://chrischiedo.github.io/). I have used [Jekyll now](https://github.com/barryclark/jekyll-now), which is very simple to set up. Site is hosted by GitHub pages.
