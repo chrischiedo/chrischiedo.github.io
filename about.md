@@ -18,8 +18,8 @@ I have spent a good chunk of my professional life (so far) working in the techni
 
 *Technical Proficiencies*
  - Programming Languages: Python, Java, C#, C/C++, Rust
- - Libraries & Frameworks: Django, Flask, Angular, ASP.NET Core MVC
- - Tools & Platforms: Git/Github, Heroku, Travis-CI, VS Code, PyCharm, IntelliJ IDEA, .NET Core
+ - Libraries & Frameworks: Django, Flask, Angular, Spring Boot, ASP.NET Core MVC
+ - Tools & Platforms: Git/Github, Heroku, Travis-CI, VS Code, PyCharm, IntelliJ, .NET Core
  - Databases/Data Stores: PostgreSQL, MySQL, Redis
  - Blockchain Protocols/Platforms: Ethereum (Truffle, Ganache, Solidity), Hyperledger Fabric
 
