@@ -11,7 +11,7 @@ Since its inception in 1979 as "**C with Classes**", ***C++*** has grown to beco
 Despite its gloomy past, all has not been lost for C++. The language is still the most preferred for writing applications where **performance** is the most crucial consideration. Examples of such applications include:
 
 * Internet search engines (e.g. Google)
-* Web browser engines (e.g. Mozilla Firefox)
+* Web browsers (e.g. Mozilla Firefox)
 * Systems software (e.g. Operating Systems and Device Drivers)
 * Game development
 * Telecommunications systems software.
