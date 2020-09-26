@@ -70,12 +70,14 @@ Type inference (or deduction) is a default feature in most modern programming la
 
  In order to achieve a similar result using old C++ code, we would have to write something like this:
 
-	// declare and initialize an array of integers
-	int a[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+```cpp
+// declare and initialize an array of integers
+int a[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-	for ( int i = 0; i < 10; ++i ) {
-	     cout << a[i] << endl;
-	}
+for ( int i = 0; i < 10; ++i ) {
+     cout << a[i] << endl;
+}
+```
 
  Using the range-based `for` loop, the above code can be re-written as shown below:
 
