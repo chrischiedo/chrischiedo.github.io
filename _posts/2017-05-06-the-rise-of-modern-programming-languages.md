@@ -54,11 +54,11 @@ Some of the common features shared by most of the languages are:
 ### Common Modern Programming Languages
 
 The following are arguably the most 'visible' modern programming languages:
->1. Scala
-2. Golang (Go)
-3. Rust
-4. Kotlin
-5. Swift
+1. Scala
+1. Golang (Go)
+1. Rust
+1. Kotlin
+1. Swift
 
 What follows is an overview of some of the main features of each language.
 N/B: I will be using a **simple function declaration** to compare the five languages.
@@ -70,11 +70,13 @@ Applications written in Scala run on top of the JVM, hence they are easily porta
 
 A simple function declaration in Scala is as follows:
 
-	def factorial(x: Int): Int = {
+```scala
+def factorial(x: Int): Int = {
 
-	      // The body of the function goes here...
+      // The body of the function goes here...
 
-	}
+}
+```
 
 A function in Scala is declared using the `def` keyword (similar to Python and Ruby). This is followed by the name of the function, in this case **factorial**, then a list of parameters in a pair of parentheses. Note that the parameter, in this case ***x***, is followed by a colon (**:**) and then its data type (`Int`, for an integer). If there are more than one parameter in the list, then they should be separated by a comma.
 After the closing parenthesis of the function parameter list, we have another colon and an `Int` after it. This is the trailing function return type (more properly called the ***result type*** in Scala).
@@ -83,39 +85,47 @@ Following the function's result type is an equals sign (**=**) and a pair of cur
 Variables in Scala are declared using either the `val` or `var` (similar to JavaScript) keywords. Variables declared using the ***val*** keyword are **immutable** and therefore are not reassignable (this is the preferred option in Scala). On the other hand variables declared using the ***var*** keyword can be reassigned.
 If a variable is given an initial value, then its type doesn't have to be declared explicitly, the interpreter can easily 'infer' its type from the initial value. For example:
 
-	val x = 20
+```scala
+val x = 20
+```
 
 In this case the type of '***x***' will be inferred to be an integer (`Int`).
 If a variable has no initial value then its type must be declared explicitly, like so:
 
-	var x: Int
+```scala
+var x: Int
+```
 
 An important point to note is that Scala **requires** you to initialize a variable, whether you intent for it to be immutable or not.
 So for the case using *var* above, both the declaration and initialization of the variable can be done simultaneously, like so:
 
-	var x: Int = 20
+```scala
+var x: Int = 20
+```
 
 ***Concurrency in Scala***:
 
 Scala uses ***Actors*** (Based on the [Actor Model](https://en.wikipedia.org/wiki/Actor_model) proposed by **Carl Hewitt** in the early 1970s) to implement concurrency. The implementation method is heavily influenced by [Erlang](https://www.erlang.org/).
 A simple example is shown below:
 
-	import scala.actors.Actor
-	import scala.actors.Actor._
+```scala
+import scala.actors.Actor
+import scala.actors.Actor._
 
-	val simpleActor = actor {
-	      loop {
-	            receive {
-	                 case s: String => println("This is a string: " + s)
-	                 case i: Int => println("This is an integer: " + i.toString)
-	                 case _ => println("I don't know what this is.")
-	            }
-	      }
-	}
+val simpleActor = actor {
+      loop {
+            receive {
+                 case s: String => println("This is a string: " + s)
+                 case i: Int => println("This is an integer: " + i.toString)
+                 case _ => println("I don't know what this is.")
+            }
+      }
+}
+```
 
-	simpleActor ! "scala is awesome"
-	simpleActor ! 32
-	simpleActor ! 32.134
+simpleActor ! "scala is awesome"
+simpleActor ! 32
+simpleActor ! 32.134
 
 When the code above is run, the output will be as shown below:
 
@@ -128,7 +138,9 @@ The line that begins with the ***val*** definition creates an **actor** called *
 An actor is a thread-like object that is able to receive and 'store' messages. Actors are usually mapped to native threads which can then be executed concurrently.
 Actors communicate through passing messages to each other. To send a message to an actor, an exclamation mark or bang (**!**) is used, as shown below:
 
-	simpleActor ! "scala is awesome"
+```scala
+simpleActor ! "scala is awesome"
+```
 
 In this case, a string message, '*scala is awesome*' is send to the **actor** '***simpleActor***'. Note that the actor is always to the left of the bang and the message is always to the right.
 
