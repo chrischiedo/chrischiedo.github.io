@@ -451,7 +451,7 @@ One of the stated goals of Kotlin is to be fully interoperable with Java and run
 
 A simple function declaration in Kotlin looks like this:
 
-```kt
+```kotlin
 fun factorial(x: Int): Int {
 
        // The body of the function goes here...
@@ -464,7 +464,7 @@ In this case, the function takes one argument of type `Int` and returns an `Int`
 
 Just like in Scala, variables in Kotlin are declared using either `val` or `var` keywords, as shown below:
 
-```kt
+```kotlin
 val x: Int = 3
 var y = 7
 ```
