@@ -31,18 +31,24 @@ What follows is a brief discussion on some of the new features of C++ as from **
 
 Type inference (or deduction) is a default feature in most modern programming languages. For example, a variable declaration in **Go** looks like this:
 
-	x := 10 // x inferred as an integer
+```cpp
+x := 10 // x inferred as an integer
+```
 
  As seen from the code snippet, you don't need to declare the type of the variable '***x***' explicitly. The Go compiler will do that for you instead, based on the initial value given.
 
  In 'old' C++ (***pre-C++11***), the type of a variable had to be declared explicitly, like so:
 
-	int x;      // x declared as an integer
-	int y = 10; // y declared and initialized at the same time
+```cpp
+int x;      // x declared as an integer
+int y = 10; // y declared and initialized at the same time
+```
 
  Beginning from **C++11**, it is now possible to take advantage of type inference using the `auto` keyword, as shown below:
 
-	auto x = 1; // x deduced as an integer
+```cpp
+auto x = 1; // x deduced as an integer
+```
 
  Note that for type deduction to work, the variable should be **initialized**.
 
@@ -52,8 +58,10 @@ Type inference (or deduction) is a default feature in most modern programming la
 
  In Python, a range-based `for` loop looks like this:
 
-	for i in range(10):
-	   print(i)
+```py
+for i in range(10):
+   print(i)
+```
 
  The output for the code above is:
 
@@ -81,11 +89,13 @@ for ( int i = 0; i < 10; ++i ) {
 
  Using the range-based `for` loop, the above code can be re-written as shown below:
 
-	int a[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+```cpp
+int a[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-	for ( int i : a ) {
-	     cout << i << endl;
-	}
+for ( int i : a ) {
+     cout << i << endl;
+}
+```
 
  Much better and cleaner, don't you think?
 
@@ -93,59 +103,65 @@ for ( int i = 0; i < 10; ++i ) {
 
  This first version is written in old C++ style.
 
-	#include <iostream>
-	#include <vector>
+```cpp
+#include <iostream>
+#include <vector>
 
-	using namespace std;
+using namespace std;
 
-	int main( int argc, char ** argv ) {
-		// Declare and initialize a vector of integers
-		vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+int main( int argc, char ** argv ) {
+	// Declare and initialize a vector of integers
+	vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-		// Declare an iterator and loop through all the vector elements
-		for ( vector<int>::iterator it = vi.begin(); it < vi.end(); ++it) {
-		   cout << *it << endl;
-		}
-		return 0;
+	// Declare an iterator and loop through all the vector elements
+	for ( vector<int>::iterator it = vi.begin(); it < vi.end(); ++it) {
+	   cout << *it << endl;
 	}
+	return 0;
+}
+```
 
  Below is the second version using the `auto` keyword:
 
-	#include <iostream>
-	#include <vector>
+```cpp
+#include <iostream>
+#include <vector>
 
-	using namespace std;
+using namespace std;
 
-	int main( int argc, char ** argv ) {
-		// Declare and initialize a vector of integers
-		vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+int main( int argc, char ** argv ) {
+	// Declare and initialize a vector of integers
+	vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-		// Type deduction using auto
-		for ( auto it = vi.begin(); it < vi.end(); ++it) {
-		   cout << *it << endl;
-		}
-		return 0;
+	// Type deduction using auto
+	for ( auto it = vi.begin(); it < vi.end(); ++it) {
+	   cout << *it << endl;
 	}
+	return 0;
+}
+```
 
  Note that now we no longer have to declare the type of `it`.
 
  The third version is even much shorter and concise. Here, we employ the range-based `for` loop:
 
-	#include <iostream>
-	#include <vector>
+```cpp
+#include <iostream>
+#include <vector>
 
-	using namespace std;
+using namespace std;
 
-	int main( int argc, char ** argv ) {
-		// Declare and initialize a vector of integers
-		vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+int main( int argc, char ** argv ) {
+	// Declare and initialize a vector of integers
+	vector<int> vi = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-		// Range-based for loop
-		for ( auto & i : vi ) {
-		   cout << i << endl;
-		}
-		return 0;
+	// Range-based for loop
+	for ( auto & i : vi ) {
+	   cout << i << endl;
 	}
+	return 0;
+}
+```
 
  The output for the code above will be:
 
@@ -164,15 +180,19 @@ for ( int i = 0; i < 10; ++i ) {
 
 This is a feature in C++17 that now allows the declaration of non-type template arguments with the keyword `auto`. This makes it possible for template parameters to be deduced at the point of instantiation rather than explicitly specified, as shown below:
 
-	template <auto V> void somefunc() { } // V is some constant (const) value
+```cpp
+template <auto V> void somefunc() { } // V is some constant (const) value
 
-	somefunc<20>();    // 'int' is deduced
+somefunc<20>();    // 'int' is deduced
+```
 
 Previously, you would have to write something like this:
 
-	template <typename T, V> void somefunc() { }
+```cpp
+template <typename T, V> void somefunc() { }
 
-	somefunc<int, 20>();
+somefunc<int, 20>();
+```
 
 ### if constexpr (expression)
 
@@ -180,9 +200,11 @@ This is another new feature in C++17 that may be considered as the C++ version o
 
 It allows blocks of code to be compiled only if the `constexpr` evaluates to `true` during compilation time:
 
-	if constexpr(is_integer ...) { // execute integerstuff }
-	else if constexpr(is_floating_point ...) { // execute floatingpointstuff }
-	else { // NaN; }
+```cpp
+if constexpr(is_integer ...) { // execute integerstuff }
+else if constexpr(is_floating_point ...) { // execute floatingpointstuff }
+else { // NaN; }
+```
 
 For more information about the many other new features of C++, check out this [link](https://isocpp.org/files/papers/p0636r0.html) that is maintained by the Standard C++ Foundation (isocpp.org).
 
