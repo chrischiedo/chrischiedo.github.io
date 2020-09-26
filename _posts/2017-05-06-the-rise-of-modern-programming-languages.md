@@ -39,7 +39,7 @@ As you will soon realize, most of these new languages have a lot in common. The 
 
 Some of the common features shared by most of the languages are:
 
->* variables are preferred to be ***immutable*** by default
+* variables are preferred to be ***immutable*** by default
 * type ***inference***
 * most of them emphasize ***type safety***
 * most of them have ***trailing*** function return types
@@ -121,11 +121,11 @@ val simpleActor = actor {
             }
       }
 }
-```
 
 simpleActor ! "scala is awesome"
 simpleActor ! 32
 simpleActor ! 32.134
+```
 
 When the code above is run, the output will be as shown below:
 
@@ -166,26 +166,34 @@ One of the strengths of Go is how it handles concurrency using **goroutines** an
 
 A simple function declaration in Go looks as follows:
 
-	func factorial(x int) int {
+```go
+func factorial(x int) int {
 
-	     // The body of the function goes here....
+     // The body of the function goes here....
 
-	}
+}
+```
 
 A function in Go is declared using the `func` keyword. This is followed by the name of the function and a list of parameters in a pair of parentheses. In this case, the factorial function only takes one argument, an integer **x**. The function also '***returns***' an integer, as indicated by the `int` keyword after the closing parenthesis of the argument list. The body of the function is enclosed within a pair of curly braces. Similar to Scala, the function return type comes **after** the name of the function (**trailing return type**), not before, as is the case with C or Java.
 
 Variables in Go are declared using the keyword `var` like shown below:
 
-	var s string
-	s = "Welcome to Go"
+```go
+var s string
+s = "Welcome to Go"
+```
 
 Of course, the declaration and initialization can be done at same time like so:
 
-	var s string = "Welcome to Go"
+```go
+var s string = "Welcome to Go"
+```
 
 Go also offers a shorter way of declaring variables as shown below:
 
-	s := "Welcome to Go"
+```go
+s := "Welcome to Go"
+```
 
 In this case the Go compiler will infer '***s***' as a `string`.
 
@@ -196,56 +204,64 @@ Go uses *goroutines* and *channels* to implement concurrency.
 
 A simple example is shown below:
 
-	func main() {
-	    c1 := make(chan string)
-	    c2 := make(chan string)
+```go
+func main() {
+    c1 := make(chan string)
+    c2 := make(chan string)
 
-	    go func() {
-	        for {
-	            c1 <- "hello from channel 1"
-	        }
-	    }()
+    go func() {
+        for {
+            c1 <- "hello from channel 1"
+        }
+    }()
 
-	    go func() {
-	        for {
-	            c2 <- "hello from channel 2"
-	        }
-	    }()
+    go func() {
+        for {
+            c2 <- "hello from channel 2"
+        }
+    }()
 
-	    go func() {
-	        for {
-	            select {
-	                case msg1 := <- c1:
-	                    fmt.Println(mg1)
-	                case msg2 := <- c2:
-	                    fmt.Println(mg2)
-	                default:
-	                    fmt.Println("Nothing is ready yet.")
-	            }
-	        }
-	    }()
+    go func() {
+        for {
+            select {
+                case msg1 := <- c1:
+                    fmt.Println(mg1)
+                case msg2 := <- c2:
+                    fmt.Println(mg2)
+                default:
+                    fmt.Println("Nothing is ready yet.")
+            }
+        }
+    }()
 
-	    var input string
-	    fmt.Scanln(&input)
-	}
+    var input string
+    fmt.Scanln(&input)
+}
+```
 
 A **goroutine** is declared using the `go` keyword. Goroutines are thread-like entities that can be executed concurrently. Goroutines communicate through **channels**.
 
 The channel type is indicated by the keyword `chan` followed by the type of the 'traffic' that the channel will handle, as shown below:
 
-	c1 := make(chan string)
+```go
+c1 := make(chan string)
+```
 
 In this case we use the built-in `make` function to create a channel called **c1**, which can handle traffic of `string` type.
 
 The left arrow operator (**<-**) is used to send (and receive) messages through the channel as shown below:
 
-	c1 <- "hello from channel 1"
+```go
+c1 <- "hello from channel 1"
+```
 
 In this case, the string message '*hello from channel 1*' is '**send**' to the channel **c1**.
 
 The receive construct is shown below:
 
-	msg1 := <- c1
+```go
+msg1 := <- c1
+```
 
 The code snippet above can be interpreted as:
 
@@ -267,7 +283,7 @@ The following are two links that I have found to be great for a beginner in Go:
 
 The stated goals of the Rust programming language are:
 
->* Safety
+* Safety
 * Speed
 * Concurrency
 
@@ -275,11 +291,13 @@ Out of the three, Rust takes **safety** more seriously. It enforces safety throu
 
 A simple function declaration in Rust looks like this:
 
-	fn factorial(x: i32) -> i32 {
+```rs
+fn factorial(x: i32) -> i32 {
 
-	    // The body of the function goes here....
+    // The body of the function goes here....
 
-	}
+}
+```
 
 By now, I am sure that you can tell what is going on in the code snippet above.
 
@@ -289,24 +307,32 @@ The function returns another 32-bit signed integer number, as indicated by the r
 
 Variables in Rust are **immutable** by default (safety is taken very seriously in Rust!), and they are declared using the keyword `let`, as shown below:
 
-	let x = 7;
+```rs
+let x = 7;
+```
 
 The code above declares a local variable and assigns it a value of *7*. The code snippet is officially called a ***variable binding*** in Rust. In this case, **7** is '*bound*' to the variable ***x***.
 The Rust compiler will infer the type of ***x*** as `i32`.
 
 The idea of variable bindings allows for pattern matching as shown below:
 
-	let (x, y) = (7, 13);
+```rs
+let (x, y) = (7, 13);
+```
 
 In this case, 7 will be bound to ***x*** and 13 to ***y***.
 
 The type of the variable may be explicitly declared as shown below:
 
-	let x: i32 = 7;
+```rs
+let x: i32 = 7;
+```
 
 If a variable will need to change after its initialization, then we should add the keyword `mut` (mutable) like so:
 
-	let mut x = 7;
+```rs
+let mut x = 7;
+```
 
 N/B: Unlike most of the other languages surveyed in this article, Rust requires a semicolon as a statement terminator (although there are a few exceptions to this rule).
 
@@ -316,9 +342,11 @@ Being a systems language, Rust offers native thread-level concurrency primitives
 
 Threads in Rust are created by using the following syntax:
 
-	let thread = std::thread::spawn(|| {
-	       println!("Graydon");
-	});
+```rs
+let thread = std::thread::spawn(|| {
+       println!("Graydon");
+});
+```
 
 In order to create a new thread, we use the `spawn()` function from the standard thread library: **std::thread**.
 
@@ -328,30 +356,34 @@ Note the bang (**!**) at the end of **println**. This indicates that it is a `ma
 
 Just like in Go, threads in Rust communicate through **channels**. This is illustrated by the following example:
 
-	use std::thread;
-	use std::sync::mpsc;
+```rs
+use std::thread;
+use std::sync::mpsc;
 
-	fn main() {
-	   let (tx, rx) = mpsc::channel();
+fn main() {
+   let (tx, rx) = mpsc::channel();
 
-	   for _ in 0..10 {
-	        let tx = tx.clone();
+   for _ in 0..10 {
+        let tx = tx.clone();
 
-	        thread::spawn(move || {
-	             let result = 77u32;
+        thread::spawn(move || {
+             let result = 77u32;
 
-	             tx.send(result);
-	        });
-	   }
+             tx.send(result);
+        });
+   }
 
-	   rx.recv().ok().expect("could not receive the result.");
-	}
+   rx.recv().ok().expect("could not receive the result.");
+}
+```
 
 First we begin by importing the standard thread and synchronization (`sync`) libraries.
 
 A channel is created by calling the `channel()` method from the **std::sync::mpsc** package, as shown below:
 
-	let (tx, rx) = mpsc::channel();
+```rs
+let (tx, rx) = mpsc::channel();
+```
 
 In this case the channel is bound to a tuple of **arity** 2 (Arity refers to the number of arguments an operation takes).
 
@@ -359,7 +391,9 @@ The initials in **mpsc** stand for "*multiple producer, single consumer*." This 
 
 After the thread is created, it calculates the *result* and **sends** it over the channel through ***tx***, as seen below:
 
-	tx.send(result);
+```rs
+tx.send(result);
+```
 
 Notice that in the example, we are using a `move` closure when creating the thread. This enforces **ownership** by giving the closure its own **stack frame**.
 
@@ -367,12 +401,16 @@ If ***rx*** receives a *result*, the `expect` method will return the value of th
 
 Rust's standard synchronization package (**std::sync**) offers two more types that are useful for ensuring safety in a multithreaded environment: `Mutex<T>` and `Arc<T>`. In order to use them, they need to be imported as shown below:
 
-	use std::sync::Mutex;
-	use std::sync::Arc;
+```rs
+use std::sync::Mutex;
+use std::sync::Arc;
+```
 
 The above import can also be done using just a single line, like so:
 
-	use std::sync::{Mutex, Arc};
+```rs
+use std::sync::{Mutex, Arc};
+```
 
 The ***Mutex*** type offers **locks** through its `lock` method. This ensures that two threads cannot claim ownership of the same piece of data at the same time.
 
@@ -382,7 +420,9 @@ Finally, Rust offers a robust package manager called **Cargo**. This helps in ma
 
 The following code snippet shows how you can use a library crate called `rand`, that offers random number functionality:
 
-	extern crate rand;
+```rs
+extern crate rand;
+```
 
 The `extern` keyword indicates that this is an *external* library (***crate***).
 
@@ -396,7 +436,7 @@ Rust also happens to be my favourite among the five languages discussed in this 
 
 The following are two great projects that have been done in Rust:
 
->* [Redox](https://www.redox-os.org/): This is a micro-kernel based OS written entirely in Rust.
+* [Redox](https://www.redox-os.org/): This is a micro-kernel based OS written entirely in Rust.
 * [Servo](https://servo.org/): A browser engine developed by Mozilla Research in conjunction with Samsung.
 
 If you are interested in learning Rust through interactive examples, you can find such a resource [here](https://rustbyexample.com/).
@@ -411,19 +451,23 @@ One of the stated goals of Kotlin is to be fully interoperable with Java and run
 
 A simple function declaration in Kotlin looks like this:
 
-	fun factorial(x: Int): Int {
+```kt
+fun factorial(x: Int): Int {
 
-	       // The body of the function goes here...
+       // The body of the function goes here...
 
-	}
+}
+```
 
 This code block looks very similar to the Scala code shown previously, and therefore it doesn't require much explanation. The only thing to note here is that in Kotlin, a function is declared using the keyword `fun`.
 In this case, the function takes one argument of type `Int` and returns an `Int` as well.
 
 Just like in Scala, variables in Kotlin are declared using either `val` or `var` keywords, as shown below:
 
-	val x: Int = 3
-	var y = 7
+```kt
+val x: Int = 3
+var y = 7
+```
 
 In this case, ***x*** is an immutable variable of type `Int`, while ***y*** is mutable. The type of ***y*** is inferred as `Int`.
 
@@ -435,7 +479,7 @@ Kotlin uses ***coroutines*** to implement concurrency (although the last time I 
 
 The list below shows some good Kotlin resources for further reading:
 
->* [Kotlin in Action](https://www.amazon.com/Kotlin-Action-Dmitry-Jemerov/dp/1617293296), a book by two core Kotlin developers at JetBrains.
+* [Kotlin in Action](https://www.amazon.com/Kotlin-Action-Dmitry-Jemerov/dp/1617293296), a book by two core Kotlin developers at JetBrains.
 * [Kotlin for Android Developers](https://leanpub.com/kotlin-for-android-developers) by Antonio Leiva.
 * Kotlin's own documentation which can be downloaded as a [PDF](https://kotlinlang.org/docs/kotlin-docs.pdf) file.
 
@@ -451,11 +495,13 @@ Most of Swift code looks a bit similar to code written in Rust.
 
 A simple function declaration in Swift is written as shown below:
 
-	func factorial(x: Int) -> Int {
+```swift
+func factorial(x: Int) -> Int {
 
-	        // The body of the function goes here...
+        // The body of the function goes here...
 
-	}
+}
+```
 
 Again, this should look very familiar by now. A function in Swift is declared using the keyword `func` (similar to **Go**). In this particular instance, the function has one argument of type `Int` and has an `Int` as its return type.
 
@@ -463,8 +509,10 @@ Swift makes a clear distinction between immutable and mutable variables. Immutab
 
 Constants are declared using the `let` keyword while variables are declared using the `var` keyword. A simple illustration is shown below:
 
-	let str: String = "Welcome to Swift Programming"
-	var x = 10
+```swift
+let str: String = "Welcome to Swift Programming"
+var x = 10
+```
 
 The first line declares a constant ***str*** of type `String`, while the second line declares a variable ***x*** whose type is inferred as `Int`.
 
