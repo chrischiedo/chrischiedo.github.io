@@ -43,7 +43,7 @@ Here are some of the great concepts that the book covers:
 ![Steve-McConnell](/images/books/Book3.jpg){: .center}
 
 
-Written by a former Microsoft software engineer, this book is a real gem for any self-respecting software engineer. It covers the art of Software Construction (or what we generally refer to as "Programming") in a very detailed(and refreshing) way. From simple things as variable names to how to write self-documenting code, this book elegantly captures the knowledge about best (and effective) software development practices. What I like most about the book is the fact that it uses a variety of different programming languages to illustrate some of the best practices (C/C++, Java, Visual Basic, etc). This is one of the reasons why I think it is better than Clean Code (My personal opinion!)
+Written by a former Microsoft software engineer, this book is a real gem for any self-respecting software engineer. It covers the art of Software Construction (or what we generally refer to as "Programming") in a very detailed(and refreshing) way. From simple things as variable names to how to write self-documenting code, this book elegantly captures the knowledge about best (and effective) software development practices. What I like most about the book is the fact that it uses a variety of different programming languages to illustrate some of the best practices (C/C++, Java, Visual Basic, etc). This is one of the reasons why I think it is better than Clean Code by Uncle Bob.
 Here are some of the great concepts that the book covers:
   - Defensive Programming
   - Code Debugging and Refactoring Techniques
