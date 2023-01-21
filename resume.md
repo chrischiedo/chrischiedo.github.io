@@ -18,7 +18,7 @@ at the [University of Nairobi](https://www.uonbi.ac.ke/), School of Computing
 and Informatics.
 
 I am currently working towards transitioning fully into web backend/API development
-and systems engineering.
+and systems programming.
 
 ### Competencies:
 
