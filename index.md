@@ -43,7 +43,7 @@ For a sample of my side projects, visit [projects]({% link projects.md %}).
 
 ### Books
 
-I love reading a lot. Here is a list of some of my favourite [books]({% link books.md %}).
+Here is a list of some of my favourite [books]({% link books.md %}).
 
 ### Getting in touch
 
