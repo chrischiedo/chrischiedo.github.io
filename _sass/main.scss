@@ -1,0 +1,115 @@
+@use "colors.scss" as *;
+
+$sans-serif: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+
+$serif: georgia, Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid
+Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe
+UI Symbol;
+
+html {
+  max-width: 65ch;
+  padding: 3em 1em;
+  margin: auto;
+  line-height: 1.6;
+  font-family: $serif;
+  //font-size: calc(1em * 1.05);
+  background: white;
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  margin: 1em 0 0;
+}
+
+p {
+  margin-top: 1em;
+}
+
+a {
+  color:$color-indigo-4;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+hr {
+  height: 1px;
+  border-width: 0px;
+  margin: 2rem 0rem;
+  color: $color-gray-3;
+  background-color: $color-gray-3;
+}
+
+code,
+pre {
+  font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+  font-size: calc(1em * 0.9);
+}
+
+footer {
+  padding-top: 3em;
+  text-align: center;
+}
+
+.lineno {
+  user-select: none;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0.1rem 1rem;
+  background: $color-sky-1;
+  //border-left: 2px solid $color-powder-3;
+  color: $color-sky-5;
+}
+
+.footnotes {
+  margin: 0;
+  line-height: 50%;
+  font-size: calc(1em * 0.85);
+  color: $color-gray-4;
+}
+
+.muted {
+  color: $color-gray-3;
+}
+
+ul {
+  padding-left: 1rem;
+}
+
+ul ul {
+  padding-left: 1.3rem;
+}
+
+ol {
+  padding-left: 1rem;
+}
+
+ol ol {
+  padding-left: 1.3rem;
+}
+
+figure {
+  margin: 0;
+}
+
+.language-plaintext {
+  background: lighten($color-amber-2, 7%);
+}
+
+.muted .language-plaintext {
+  background: $color-amber-1;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-color: $color-gray-3; 
+}
