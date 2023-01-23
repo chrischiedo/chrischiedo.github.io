@@ -12,7 +12,7 @@ tags: rust cargo rustup publish
 > through a rich type system and a unique ownership model.
 
 Rust is a relatively new systems programming language that came out of Mozilla Research.
-Through its unique ownership model and the borrow-checker, Rust quarantees memory-safety
+Through its unique ownership model and the borrow-checker, Rust guarantees memory-safety
 without the use of a garbage collector. Rust has consistently been ranked as the most
 loved programming language on the
 [stackoverflow developer surveys](https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages) since 2016.
@@ -271,7 +271,7 @@ Here are a few YouTube channels that you might find useful (if you are a fan of 
 
 - [Let's Get Rusty](https://www.youtube.com/c/LetsGetRusty): A great channel for Rust beginners.
 - [Ryan Levick](https://www.youtube.com/c/RyanLevicksVideos): Another great channel for Rust beginners. Ryan is a member of the Rust core team.
-- [Jon Gjengset](https://www.youtube.com/c/JonGjengset): Jon is the author of the _Rust for Rustaceans_ book. His videos tend to be prettty long, some of which are usually streamed live on Twitch.
+- [Jon Gjengset](https://www.youtube.com/c/JonGjengset): Jon is the author of the _Rust for Rustaceans_ book. His videos tend to be pretty long, most of which are usually streamed live on Twitch.
 - [Tim McNamara](https://www.youtube.com/c/timClicks): Tim is the author of the _Rust in Action_ book.
 
 ## Rust Courses
