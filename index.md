@@ -23,7 +23,7 @@ I am currently pursuing my Master’s degree in Distributed Computing Technology
 at the [University of Nairobi](https://www.uonbi.ac.ke/), School of Computing
 and Informatics.
 
-For more about my professional experience, check my long-form [resume]({% link resume.md %}).
+For more about my professional experience, please check my long-form [resume]({% link resume.md %}).
 
 ### Featured Posts
 
