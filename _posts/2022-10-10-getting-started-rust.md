@@ -8,8 +8,8 @@ syntax: True
 tags: rust cargo rustup publish
 ---
 <base target="_blank">
-> Rust is a systems programming language that guarantees memory- and thread-safety
-> through a rich type system and a unique ownership model.
+
+>Rust is a systems programming language that guarantees memory- and thread-safety through a rich type system and a unique ownership model.
 
 Rust is a relatively new systems programming language that came out of Mozilla Research.
 Through its unique ownership model and the borrow-checker, Rust guarantees memory-safety
@@ -32,12 +32,7 @@ This is a comprehensive guide on how to get started with the
 [Rust programming language](https://www.rust-lang.org/). I hope it sets you on
 a steady path to mastering the language and acts as a great starting point for your Rust journey.
 
-**Note**: Rust has a bit of a steep learning curve. This guide assumes that you are
-at least familiar with programming in general (perhaps you've worked with other languages
-like Python or JavaScript before). Being a systems programming language, having _some_
-experience with C/C++ would put you in a better place coming into Rust
-(but it's not a _hard_ requirement). Some familiarity with functional programming
-would also help (but again, it's not a _hard_ requirement).
+>**Note**: Rust has a bit of a steep learning curve. This guide assumes that you are at least familiar with programming in general (perhaps you've worked with other languages like Python or JavaScript before). Being a systems programming language, having _some_ experience with C/C++ would put you in a better place coming into Rust (but it's not a _hard_ requirement). Some familiarity with functional programming would also help (but again, it's not a _hard_ requirement).
 
 With that out of the way, let's get started.
 
