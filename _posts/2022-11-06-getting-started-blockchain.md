@@ -7,8 +7,8 @@ description: "A brief introduction to the Blockchain ecosystem"
 tags: blockchain bitcoin ethereum cryptography web3 publish
 ---
 <base target="_blank">
-> Blockchain is a distributed ledger technology that stores transactions in blocks
-> that are cryptographically linked together to form a chain.
+
+> Blockchain is a distributed ledger technology that stores transactions in blocks that are cryptographically linked together to form a chain.
 
 Since the launch of the Bitcoin network in 2009, there's been a lot of excitement around cryptocurrencies and other blockchain-based platforms, that facilitate transactions between different parties without the need of a single trusted third party. From DeFi to NFTs, blockchain has arguably become one of the most "hyped" technologies in recent years.
 
