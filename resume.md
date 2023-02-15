@@ -21,6 +21,8 @@ and Informatics.
 
 I am currently working towards transitioning fully into web backend/API development. My ultimate goal is to become a *cloud solutions architect* (preferably working with [AWS](https://aws.amazon.com/)).
 
+I am also interested in Blockchain technology and Programming Languages (Interpreters + Compilers).
+
 I like working with small, highly motivated teams that care deeply about delivering high quality results.
 
 ### Skills and Competencies:
