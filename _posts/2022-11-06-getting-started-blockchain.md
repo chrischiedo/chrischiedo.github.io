@@ -10,7 +10,7 @@ tags: blockchain bitcoin ethereum cryptography web3 publish
 
 > Blockchain is a distributed ledger technology that stores transactions in blocks that are cryptographically linked together to form a chain.
 
-Since the launch of the Bitcoin network in 2009, there's been a lot of excitement around cryptocurrencies and other blockchain-based platforms, that facilitate transactions between different parties without the need of a single trusted third party. From DeFi to NFTs, blockchain has arguably become one of the most "hyped" technologies in recent years.
+Since the launch of the Bitcoin network in 2009, there's been a lot of excitement around cryptocurrencies and other blockchain-based platforms, that facilitate transactions between different parties without the need of a single trusted third party. From DeFi to NFTs, blockchain has arguably become one of the "hottest" emerging technologies in recent years.
 
 #### So, what is Blockchain?
 
