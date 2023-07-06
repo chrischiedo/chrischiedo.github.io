@@ -11,7 +11,7 @@ development trainer, electrical engineering instructor, a technical curriculum
 developer, and as a Head of Department (ICT and Engineering) in a technical
 training institute.
 
-Most recently, I worked as a Technical Writer and the "unofficial" team lead for the Nairobi [identity platform
+Most recently, I worked as a Technical Writer/Content Developer and the team lead for the Nairobi [identity platform
 documentation](https://learn.microsoft.com/en-us/azure/active-directory/develop/)
 team at [Microsoft](https://www.microsoft.com/).
 
@@ -19,18 +19,20 @@ I am pursuing a part-time Master’s degree in Distributed Computing Technology
 at the [University of Nairobi](https://www.uonbi.ac.ke/), School of Computing
 and Informatics.
 
-I am currently working towards transitioning fully into web backend/API development. My ultimate goal is to become a *cloud solutions architect* (preferably working with [AWS](https://aws.amazon.com/)).
+I am currently working towards transitioning fully into distributed systems/cloud-native backend development. My ultimate goal is to become a *cloud solutions architect*.
 
-I am also interested in Blockchain technology and Programming Languages (Interpreters + Compilers).
+I also like teaching/training whenever I get the chance: mainly around AWS cloud development, RESTful API design + development, and Blockchain.
+
+*Other interests*: Blockchain technology ([Solana](https://solana.com/)) and the design + implementation of Programming Languages (Compilers/Interpreters).
 
 I like working with small, highly motivated teams that care deeply about delivering high quality results.
 
 ### Skills and Competencies:
 
 *Technical Skills*
- - Programming Languages: Python (proficient), Rust (advanced beginner)
- - Libraries & Frameworks: Django, Flask, Actix-web (Rust actor-based web framework)
- - Tools & Platforms: Git/Github, Heroku, GitHub Actions, VS Code, PyCharm, Docker
+ - Programming Languages: Python, Java, Rust
+ - Libraries & Frameworks: Django, FastAPI, Spring Boot, Actix-web
+ - Tools & Platforms: Git/Github, AWS, GitHub Actions, VS Code, PyCharm, IntelliJ IDEA, Docker
  - Databases/Data Stores: PostgreSQL, SQLite, Redis
 
 *Other Skills*
@@ -63,7 +65,7 @@ Specifically, I concentrated on the following areas:
 
 #### Content Developer & Nairobi Team Lead @ Microsoft *(March 2021 - June 2022)*
 - Created technical content (including code samples) about Microsoft Identity platorm. The content mainly covered modern authentication (OAuth2, OpenID Connect, MSAL), Azure Active Directory (Azure AD), Role-based Access Control (RBAC) and Zero Trust.
-- As the "unofficial" lead for the Nairobi-based Microsoft Identity content team, I was responsible for onboarding and mentoring/coaching new team members.
+- As the lead for the Nairobi-based Microsoft Identity content team, I was responsible for onboarding and mentoring/coaching new team members.
 
 #### Graduate Researcher (MSc) @ University of Nairobi *(April 2020 - Dec 2020)*
 
