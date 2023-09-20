@@ -40,7 +40,7 @@ For all posts, visit [blog]({% link blog.md %}).
 
 ### Open Source Contributions
 
-For a sample of my open source contributions, visit [oss contributions]({% link contribute.md %}).
+For a sample of my open source contributions, visit [OSS contributions]({% link contribute.md %}).
 
 ### Books
 
