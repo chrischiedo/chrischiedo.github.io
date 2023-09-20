@@ -7,23 +7,24 @@ redirect_from:
 
 # Chrispine Chiedo
 
+Hey there! My name is Chrispine Chiedo. Welcome to my internet home.
+
 ### About me
 
-I am an Electrical/Computer Engineer by training. I have spent a good chunk of
-my professional life working in the technical training space: as a software
+My background is in Electrical/Computer Engineering.
+
+I have spent a good chunk of my professional life working in the technical training space: as a software
 development trainer, electrical engineering instructor, a technical curriculum
-developer, and as a Head of Department (ICT and Engineering) in a technical
-training institute.
+developer, and a technical content developer. I have also served as a Head of Department (ICT and Engineering) in a technical training institute.
 
 Most recently, I worked as a Technical Writer and the "unofficial" team lead for the Nairobi [identity platform
-documentation](https://learn.microsoft.com/en-us/azure/active-directory/develop/)
-team at [Microsoft](https://www.microsoft.com/).
+documentation](https://learn.microsoft.com/en-us/azure/active-directory/develop/) team at [Microsoft](https://www.microsoft.com/).
 
-I am currently pursuing my Master’s degree in Distributed Computing Technology
+I am currently pursuing a part-time Master’s degree in Distributed Computing Technology
 at the [University of Nairobi](https://www.uonbi.ac.ke/), School of Computing
 and Informatics.
 
-For more about my professional experience, please check my long-form [resume]({% link resume.md %}).
+For more about my professional experience, please check out my [LinkedIn profile] (https://www.linkedin.com/in/chrispinechiedo/).
 
 ### Featured Posts
 
@@ -37,9 +38,9 @@ For more about my professional experience, please check my long-form [resume]({%
 
 For all posts, visit [blog]({% link blog.md %}).
 
-### Side Projects
+### Open Source Contributions
 
-For a sample of my side projects, visit [projects]({% link projects.md %}).
+For a sample of my open source contributions, visit [oss contributions]({% link contribute.md %}).
 
 ### Books
 

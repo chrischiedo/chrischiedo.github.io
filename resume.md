@@ -8,8 +8,7 @@ layout: page
 I am an Electrical/Computer Engineer by training. I have spent a good chunk of
 my professional life working in the technical training space: as a software
 development trainer, electrical engineering instructor, a technical curriculum
-developer, and as a Head of Department (ICT and Engineering) in a technical
-training institute.
+developer, and a technical content developer. I have also served as a Head of Department (ICT and Engineering) in a technical training institute.
 
 Most recently, I worked as a Technical Writer/Content Developer and the team lead for the Nairobi [identity platform
 documentation](https://learn.microsoft.com/en-us/azure/active-directory/develop/)
@@ -19,19 +18,13 @@ I am pursuing a part-time Master’s degree in Distributed Computing Technology
 at the [University of Nairobi](https://www.uonbi.ac.ke/), School of Computing
 and Informatics.
 
-I am currently working towards transitioning fully into distributed systems/cloud-native backend development. My ultimate goal is to become a *cloud solutions architect*.
-
-I also like teaching/training whenever I get the chance: mainly around AWS cloud development, RESTful API design + development, and Blockchain.
-
-*Other interests*: Blockchain technology ([Solana](https://solana.com/)) and the design + implementation of Programming Languages (Compilers/Interpreters).
-
 I like working with small, highly motivated teams that care deeply about delivering high quality results.
 
 ### Skills and Competencies:
 
 *Technical Skills*
- - Programming Languages: Python, Java, Rust
- - Libraries & Frameworks: Django, FastAPI, Spring Boot, Actix-web
+ - Programming Languages: Java, Python, Rust
+ - Libraries & Frameworks: Django, FastAPI, Spring Boot, Quarkus, Actix-web
  - Tools & Platforms: Git/Github, AWS, GitHub Actions, VS Code, PyCharm, IntelliJ IDEA, Docker
  - Databases/Data Stores: PostgreSQL, SQLite, Redis
 
@@ -49,9 +42,9 @@ I like working with small, highly motivated teams that care deeply about deliver
 
 ### Professional Experience:
 
-#### Rust Developer and OSS Contributor *(Nov 2022 - Present)*
+#### OSS Contributor *(Nov 2022 - Present)*
 
-Freelance work as a Rust developer and Open-Source contributor.
+Freelance work as an Open-Source contributor.
 
 #### Professional Development *(July 2022 - Oct 2022)*
 
