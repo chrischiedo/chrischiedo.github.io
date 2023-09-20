@@ -24,7 +24,7 @@ I am currently pursuing a part-time Master’s degree in Distributed Computing T
 at the [University of Nairobi](https://www.uonbi.ac.ke/), School of Computing
 and Informatics.
 
-For more about my professional experience, please check out my [LinkedIn profile] (https://www.linkedin.com/in/chrispinechiedo/).
+For more about my professional experience, please check out my [LinkedIn profile](https://www.linkedin.com/in/chrispinechiedo/).
 
 ### Featured Posts
 
