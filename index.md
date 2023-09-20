@@ -7,7 +7,7 @@ redirect_from:
 
 # Chrispine Chiedo
 
-Hey there! My name is Chrispine Chiedo. Welcome to my internet home.
+Hey there! My name is Chrispine. Welcome to my internet home.
 
 ### About me
 
