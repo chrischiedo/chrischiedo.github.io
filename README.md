@@ -1,2 +1,2 @@
 # chrischiedo.github.io
-My personal website at [https://www.chiedo.dev/](https://www.chiedo.dev/)
+My personal website at [chrischiedo.github.io](https://chrischiedo.github.io/)
