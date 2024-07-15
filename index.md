@@ -13,9 +13,7 @@ Hey there! My name is Chrispine. Welcome to my internet home.
 
 I am a software engineer and technical trainer. I am mainly interested in distributed systems and programming languages (from a design and implementation standpoint). Over the years, I've worked with Java, Python, and Rust.
 
-I'm naturally a very curious person, and I particularly enjoy learning new things every day.
-
-For more about me, please check the [about]({% link about.md %}) page.
+For more about me, please check out the [about]({% link about.md %}) page.
 
 
 ### Featured Posts
