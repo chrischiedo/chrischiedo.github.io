@@ -12,7 +12,7 @@ I have spent a good chunk of my professional life working in the technical train
 development trainer, electrical engineering instructor, a technical curriculum
 developer, and a technical content developer. I have also served as a Head of Department (ICT and Engineering) in a technical training institute.
 
-A couple of years ago I decided to transition into the software engineering space. 
+A couple of years ago I decided to transition into the software engineering space. I am mainly interested in distributed systems and programming languages (from a design and implementation standpoint). Over the years, I've worked with Java, Python, and Rust.
 
 I've worked at [Microsoft](https://www.microsoft.com/) as a Technical Writer and the "unofficial" team lead for the Nairobi [Identity platform
 documentation](https://learn.microsoft.com/en-us/azure/active-directory/develop/) team.
