@@ -23,5 +23,7 @@ and Informatics.
 
 My ultimate ambition is to end up as a technical program manager (TPM) or a cloud solutions architect (I've already bagged one [AWS Cloud Certification](https://www.credly.com/badges/3f9765dc-6df8-402d-a5ee-b4d1595d5981/public_url)).
 
+I'm naturally a very curious person, and I particularly enjoy learning new things every day. I feel energised when working with small, highly motivated teams that care deeply about delivering business results.
+
 For more about my professional experience, please check out my [LinkedIn profile](https://www.linkedin.com/in/chrispinechiedo/).
 
