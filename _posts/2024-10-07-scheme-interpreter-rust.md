@@ -51,7 +51,7 @@ At a high level, a language interpreter has the following parts:
 
 ![Language Interpreter stages](/assets/img/scheme-interpreter-rust/interpreter-pipeline.png "Language Interpreter stages")
 
-- The lexer (sometimes called a scanner), takes in the program souce code and breaks it up into a series of _tokens_.
+- The lexer (sometimes called a scanner), takes in the program source code and breaks it up into a series of _tokens_.
 - The parser takes in tokens from the lexer and creates an abstract syntax tree (AST).
 - The evaluator evaluates the AST and produces the final result of the program.
 
@@ -868,7 +868,7 @@ schemer>
  ==> 28.274333882308138
 ```
 
-We can define functions to calculate factorials and fibonacci series: 
+We can define functions to calculate factorials and fibonacci numbers: 
 
 ```scheme
 schemer>
