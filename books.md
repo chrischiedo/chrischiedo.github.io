@@ -4,6 +4,8 @@ title: "Books"
 comments: false
 ---
 
+> _“Books are the quietest and most constant of friends; they are the most accessible and wisest of counselors, and the most patient of teachers.”_ ~ Charles William Eliot (1834–1926), American academic and former President of Harvard University.
+
 ![Tech books library photo](/assets/img/books-library/books-lib.jpg "Library of technical books")
 
 Here is a list of some of my favourite technical and non-technical books:
@@ -93,3 +95,6 @@ Here is a list of some of my favourite technical and non-technical books:
 - Things Fall Apart by Chinua Achebe
 - The River and the Source by Dr. Margaret Ogola
 - Freedom and After by Tom Mboya
+
+
+> _“If it seemeth to thee that thou knowest many things, and understandest them well, know also that there are many more things which thou knowest not.”_
