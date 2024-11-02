@@ -22,7 +22,7 @@ The main features of Quarkus are:
 
 In this tutorial, we're going to build a simple employee API. The API will support all the standard CRUD (Create, Read, UUpdate, and Delete) operations, exposed via a REST API. The API will use a relational database (PostgreSQL) for data persistence.
 
-All source code for this tutorial is [available on GitHub](https://github.com/chrischiedo/rustyscm).
+All source code for this tutorial is [available on GitHub](https://github.com/chrischiedo/quarkus-employee-rest-api).
 
 > Note: This tutorial uses Quarkus `3.15.1` and Java `21`.
 
