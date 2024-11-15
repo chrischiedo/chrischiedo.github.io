@@ -1,32 +1,36 @@
 ---
 layout: post
-title: Getting Started with Rust Development
+title: Getting started with Rust development
 comments: true
-tags: performance concurrency Rust borrow-checker cargo rustup
+tags:
+  - performance
+  - concurrency
+  - Rust
+  - borrow-checker
+  - cargo
+  - rustup
 excerpt_separator: <!--more-->
 ---
 
-Rust is a systems programming language that guarantees memory- and thread-safety through a rich type system and a unique ownership model.
+Rust is a systems programming language that guarantees memory and thread safety through a rich type system and a unique ownership model.
 
-Through its ownership model and the borrow-checker, Rust guarantees memory-safety without the use of a garbage collector. Rust has consistently been ranked as the most loved programming language on the
-[stackoverflow developer surveys](https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages) since 2016.
+Through its ownership model and the borrow-checker, Rust guarantees memory safety without the use of a garbage collector. Rust has consistently been ranked as the most loved programming language on the
+[stackoverflow developer survey](https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages) since 2016.
 <!--more-->
 
-Rust is a relatively new systems programming language that came out of Mozilla Research. Since its 1.0 release in 2015, Rust has steadily gained widespread support and admiration, with some big tech companies investing heavily in the language.
+Rust is a relatively new systems programming language that came out of Mozilla Research. Since its 1.0 release in 2015, Rust has steadily gained a lot of support and admiration, with some big tech companies investing heavily in the language.
 The founding members of the [Rust Foundation](https://foundation.rust-lang.org/)
-include tech heavyweights like Google, Microsoft, Meta (formerly Facebook) and AWS.
+include tech heavyweights like Google, Microsoft, Meta (formerly Facebook), and AWS.
 And the Linux kernel has finally taken steps to
 [add support for Rust](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8aebac82933ff1a7c8eede18cab11e1115e2062b).
 
 Going by the current trend, Rust is definitely poised to become one of the powerhouses
-in the software engineering space. If you've ever wanted to get started with Rust,
-but was wondering how or where to look for resources, then you are at the right place.
+in the software engineering space. If you've ever wanted to get started with Rust but were wondering how or where to find resources, you're in the right place.
 
 This is a comprehensive guide on how to get started with the
-[Rust programming language](https://www.rust-lang.org/). I hope it sets you on
-a steady path to mastering the language and acts as a great starting point for your Rust journey.
+[Rust programming language](https://www.rust-lang.org/). I hope it sets you on a steady path to mastering the language and serves as a strong starting point for your Rust journey.
 
->**Note**: Rust has a bit of a steep learning curve. This guide assumes that you are at least familiar with programming in general (perhaps you've worked with other languages like Python or JavaScript before). Being a systems programming language, having _some_ experience with C/C++ would put you in a better place coming into Rust (but it's not a _hard_ requirement). Some familiarity with functional programming would also help (but again, it's not a _hard_ requirement).
+>**Note**: Rust has a reputation for having a (relatively) steep learning curve. This guide assumes that you are at least familiar with programming in general (perhaps you've worked with other languages like Python or JavaScript before). Rust being a systems programming language, having _some_ experience with C/C++ would put you in a better place when starting with Rust (but it's not a _hard_ requirement). Some familiarity with functional programming would also help (but again, it's not a _hard_ requirement).
 
 With that out of the way, let's get started.
 
@@ -65,7 +69,7 @@ $ rustup update
 Let's see how we can create the traditional "Hello world" program in Rust.
 
 In the terminal, run the following Cargo command to create a new binary project
-(assuming that you've navigated to your preferred project folder):
+(assuming that you've navigated to your preferred project directory):
 
 ```bash
 $ cargo new hello-world --bin
@@ -74,7 +78,9 @@ $ cargo new hello-world --bin
 This will generate a new directory called `hello-world` with the following file structure:
 
 ```bash
-hello-world
+$ cd hello-world
+
+$ tree .
 ├── Cargo.toml
 └── src
     └── main.rs
@@ -92,10 +98,9 @@ fn main() {
 
 All rust programs have a `main` function that acts as the entry point for the program.
 
-To run the program, move into the `hello-world` directory and then execute the `cargo run` command:
+To run the program, execute the `cargo run` command:
 
 ```bash
-$ cd hello-world
 $ cargo run
 ```
 
@@ -188,6 +193,7 @@ Through the [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=
 ### IntelliJ IDEA + Rust plugin
 
 If you are a fan of JetBrains products, there is a [Rust plugin](https://plugins.jetbrains.com/plugin/8182-rust) for [IntelliJ IDEA](https://www.jetbrains.com/idea/) (the community edition works just fine).
+> Update: JetBrains now has an official Rust IDE: [RustRover](https://www.jetbrains.com/rust/).
 
 ### Neovim
 
@@ -245,11 +251,11 @@ I recently learnt about a somewhat similar platform: [Rust Explorer](https://www
 
 Apart from the official [Rust Book](https://doc.rust-lang.org/book/) mentioned above, here are other books that I've found to be useful when learning Rust:
 
-- [Programming Rust](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/): Now in it's second edition, it's a great reference book on Rust (it goes a lot more deeper on many of the Rust concepts, compared to "the book").
+- [Programming Rust](https://www.oreilly.com/library/view/programming-rust-2nd/9781492052586/): Now in it's second edition, it's a great reference book on Rust (it goes a lot more deeper on many of the Rust concepts, compared to "the Book").
 - [Command-Line Rust](https://www.oreilly.com/library/view/command-line-rust/9781098109424/): The book takes a project-based approach to learning Rust. You get to rewrite some of the most common Unix command line utilities in Rust.
 - [Rust in Action](https://www.manning.com/books/rust-in-action): Covers low-level systems programming concepts using Rust. For example, you get to write a small OS kernel and a key-value store.
 - [Zero to Production in Rust](https://www.zero2prod.com/index.html): A fantastic introduction to backend (API) development using Rust. The book uses the [Actix web](https://actix.rs/) framework.
-- [Rust for Rustaceans](https://nostarch.com/rust-rustaceans): This book targets an intermediate-level audience (at least you should've a good grasp of Rust fundamentals before getting this book). The author indicates that the book is meant to pick up from where "the Rust book" left off. It covers some advanced topics like FFI, Unsafe Code, and Macros.
+- [Rust for Rustaceans](https://nostarch.com/rust-rustaceans): This book targets an intermediate-level audience (at least you should have a good grasp of Rust fundamentals before getting this book). The author indicates that the book is meant to pick up from where "the Book" left off. It covers some advanced topics like FFI, Unsafe Code, and Macros.
 
 ## Rust-focused YouTube Channels
 
@@ -262,7 +268,7 @@ Here are a few YouTube channels that you might find useful (if you are a fan of 
 
 ## Rust Courses
 
-If you like taking structured courses, then here are some of my favourites:
+If you like taking structured courses, then here are some of my favorites:
 
 - [Take your first steps with Rust](https://learn.microsoft.com/en-us/training/paths/rust-first-steps/): This is a free 5-hour Learning Path on Microsoft Learn. The content is beginner-friendly and covers most of Rust basics.
 - [Rust Essential Training](https://www.linkedin.com/learning/rust-essential-training): This is a course on LinkedIn Learning (Subscription needed).
@@ -274,9 +280,9 @@ If you like taking structured courses, then here are some of my favourites:
 If you'd like to interact with fellow Rustaceans within the wider Rust ecosystem, here are a few places to look at. Rust is known to have a very welcoming (and inclusive) community.
 
 - Rust [users forum](https://users.rust-lang.org/): An open forum for Rustaceans. You can ask for help or discuss any topic related to Rust.
-- Rust [Discord server](https://discord.gg/rust-lang): Get to chat and interact in real-time with other Rustaceans. Folks are pretty active (and responsive) on this server.
-- Rust [subreddit](https://www.reddit.com/r/rust/): Mighty be a bit noisy sometimes but it's a great place to learn about the latest news on Rust and its ecosystem.
-- [This Week in Rust](https://this-week-in-rust.org/) newsletter: Weekly Rust ecosystem updates delivered via email (I've personally learnt a lot from this newsletter)
+- Rust [Discord server](https://discord.gg/rust-lang): Get to chat and interact in real time with other Rustaceans. Folks are pretty active (and responsive) on this server.
+- Rust [subreddit](https://www.reddit.com/r/rust/): Another great place to learn about the latest news on Rust and its ecosystem.
+- [This Week in Rust](https://this-week-in-rust.org/) newsletter: Weekly Rust ecosystem updates delivered via email (I've personally learned a lot from this newsletter)
 - [Awesome Rust Mentors](https://rustbeginners.github.io/awesome-rust-mentors/): Ask for mentorship from more experienced Rustaceans.
 
 ## Conclusion
