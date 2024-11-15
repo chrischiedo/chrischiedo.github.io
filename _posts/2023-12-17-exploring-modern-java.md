@@ -1,8 +1,12 @@
 ---
 layout: post
-title: "Getting Re-Java-nated: Exploring Modern Java"
+title: "Getting re-Java-nated: Exploring Modern Java"
 comments: true
-tags: Java Lambda Quarkus GraalVM
+tags:
+  - Java
+  - Lambda
+  - Quarkus
+  - GraalVM
 excerpt_separator: <!--more-->
 ---
 
