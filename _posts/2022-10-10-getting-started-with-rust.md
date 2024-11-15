@@ -30,7 +30,7 @@ in the software engineering space. If you've ever wanted to get started with Rus
 This is a comprehensive guide on how to get started with the
 [Rust programming language](https://www.rust-lang.org/). I hope it sets you on a steady path to mastering the language and serves as a strong starting point for your Rust journey.
 
->**Note**: Rust has a reputation for having a (relatively) steep learning curve. This guide assumes that you are at least familiar with programming in general (perhaps you've worked with other languages like Python or JavaScript before). Rust being a systems programming language, having _some_ experience with C/C++ would put you in a better place when starting with Rust (but it's not a _hard_ requirement). Some familiarity with functional programming would also help (but again, it's not a _hard_ requirement).
+>**Note**: Rust has a reputation for having a (relatively) steep learning curve. This guide assumes that you are at least familiar with programming in general (perhaps you've worked with other languages like Python or JavaScript before). Since Rust is a systems programming language, having _some_ experience with C/C++ would put you in a better place when starting with Rust (but it's not a _hard_ requirement). Some familiarity with functional programming would also help (but again, it's not a _hard_ requirement).
 
 With that out of the way, let's get started.
 
