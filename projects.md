@@ -9,6 +9,10 @@ comments: false
 
 This project implements a lexer, parser, and an evaluator for a minimal subset of Scheme. It is written from scratch in Rust.
 
+## [Employee API](https://github.com/chrischiedo/quarkus-employee-rest-api)
+
+This project implements a simple REST API using the [Quarkus](https://quarkus.io/) framework.
+
 
 ## [Rust for Java Developers](https://chrischiedo.github.io/rust-for-java-devs/)
 
