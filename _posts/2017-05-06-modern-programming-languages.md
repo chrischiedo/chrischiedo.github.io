@@ -10,7 +10,7 @@ Nineteen ninety-five was a particularly interesting year in the world of compute
 
 <!--more-->
 
-> Note: This article was originally published as an essay on Medium in 2017. You can check it out [here](https://medium.com/@chiedo.chrispine/the-rise-of-modern-programming-languages-c923a2b914fc).
+> Disclaimer: This article was originally published as an essay on Medium in 2017. You can check it out [here](https://medium.com/@chiedo.chrispine/the-rise-of-modern-programming-languages-c923a2b914fc).
 
 The four languages that made their debut in 1995 were **Java**, **JavaScript**, **PHP** and **Ruby**. Although there wasn’t much fanfare accompanying their respective releases, these languages would eventually grow to become ubiquitous programming tools for most software developers. Up until that time, **C** and **C++** were the dominant languages. Despite the fact that these two were very powerful, they were not inherently suited for the world-wide web. Additionally, they were often considered to be a little complicated and intimidating to novice programmers (especially C++).
 
