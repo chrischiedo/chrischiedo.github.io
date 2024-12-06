@@ -31,6 +31,8 @@ Here is a list of some of my favourite technical and non-technical books:
 - Real World OCaml by Yaron Minsky, et al.
 - CPython Internals by Anthony Shaw
 - The C Programming Language by Brian Kernighan & Dennis Ritchie
+- A Tour of C++ by Bjarne Stroustrup
+- Professional C++ by Marc Gregoire
 - The Linux Programming Interface by Michael Kerrisk
 - The Linux Command Line by William Shotts
 - The Rust Programming Language by Steve Klabnik & Carol Nichols
