@@ -550,7 +550,7 @@ quarkus:
   datasource:
     db-kind: postgresql
     devservices:
-      image-name: postgres:13
+      image-name: postgres:16
   hibernate-orm:
     database:
       generation: none
@@ -625,7 +625,7 @@ $ curl localhost:8080/api/v1/employees | jq
 ]
 ```
 
-> Note that we are piping the output from `curl` through [`jq`](https://jqlang.github.io/jq/) to get a pretty printed output.
+> Note that we are piping the output from `curl` through [`jq`](https://jqlang.github.io/jq/) to get a well formatted output.
 
 We can get a single employee by running the following command:
 
