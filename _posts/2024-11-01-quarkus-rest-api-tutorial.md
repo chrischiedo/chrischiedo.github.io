@@ -20,7 +20,7 @@ The main features of Quarkus are:
 - **Kubernetes-native**: Quarkus makes it easy to deploy microservice applications to Kubernetes without having to understand the intricacies of the underlying Kubernetes framework.
 - **Developer joy**: Quarkus makes it trivial to develop simple applications, and easy to develop the more complex ones. It accomplishes this through features like live code reloading (while in dev mode), CLI tooling, Continuous Testing, and [Dev Services](https://quarkus.io/guides/dev-services). 
 
-In this tutorial, we're going to build a simple employee API. The API will support all the standard CRUD (Create, Read, UUpdate, and Delete) operations, exposed via a REST API. The API will use a relational database (PostgreSQL) for data persistence.
+In this tutorial, we're going to build a simple employee API. The API will support all the standard CRUD (Create, Read, Update, and Delete) operations, exposed via a REST API. The API will use a relational database (PostgreSQL) for data persistence.
 
 All source code for this tutorial is [available on GitHub](https://github.com/chrischiedo/quarkus-employee-rest-api).
 
@@ -31,7 +31,7 @@ All source code for this tutorial is [available on GitHub](https://github.com/ch
 There are three different ways of creating a new Quarkus project:
 
 - Using the Quarkus CLI tool
-- Using a build tool (Maven or Gradle)
+- Using the Maven build tool (via a plugin)
 - Using the Quarkus project starter at [code.quarkus.io](https://code.quarkus.io/).
 
 In this tutorial, we are going to use the first method (Quarkus CLI).
@@ -567,7 +567,7 @@ quarkus:
         sql: true
     flyway:
       migrate-at-start: true
-      locations: db/migration,db/testdata
+      locations: db/migration
 
 mp:
   openapi:
@@ -583,7 +583,7 @@ Instead of running a database instance locally, Quarkus provides a set of tools 
 
 > Note: `Dev Services` requires a working container runtime (Docker or Podman) to be installed on your machine.
 
-For the `quarkus` property settings, we specify the container image (`postgres:13`) that Dev Services should use when spinning up a database instance for our application. We also set properties specific to the `dev` mode, for example: `log` levels and `flyway` schema migration behaviour.
+For the `quarkus` property settings, we specify the container image (`postgres:16`) that Dev Services should use when spinning up a database instance for our application. We also set properties specific to the `dev` mode, for example: `log` levels and `flyway` schema migration behaviour.
 
 The last section has OpenAPI/Swagger documentation settings.
 
@@ -785,7 +785,7 @@ File: `src/main/resources/application.yml`
         sql: true
     flyway:
       migrate-at-start: true
-      locations: db/migration,db/testdata
+      locations: db/migration
 ```
 
 To run the test(s) use the following command:
