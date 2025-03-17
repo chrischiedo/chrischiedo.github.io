@@ -28,6 +28,8 @@ The Book REST API project is a simple Spring Boot application built using the [S
 | Springdoc-openapi   | Swagger documentation (OpenAPI 3.0)                                                |
 | Hibernate Validator | Bean/Object validation                                                             |
 
+The source code for the application is [available on GitHub](https://github.com/chrischiedo/books-rest-api-spring-boot).
+
 >Note: The project uses Spring Boot 3.4.0 and Java 21.
 
 ## Interacting with the application locally
