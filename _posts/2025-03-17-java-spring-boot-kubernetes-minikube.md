@@ -129,10 +129,11 @@ Here is a sample Dockerfile for the application:
 > Note: Create the file in the root directory of the project: `$ touch Dockerfile`.
 
 ```dockerfile
-FROM openjdk:21
-COPY target/bookApi-0.0.1-SNAPSHOT.jar booksrestapi.jar
-EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "/booksrestapi.jar"]
+FROM openjdk:21-jdk-slim  
+WORKDIR /app  
+COPY target/bookApi-0.0.1-SNAPSHOT.jar booksrestapi.jar  
+EXPOSE 8080  
+ENTRYPOINT ["java", "-jar", "booksrestapi.jar"]
 ```
 
 >Note: We are using the `jar` file that was created from the build process (when we run `./mvnw clean package`). The jar file bundles all the dependencies together, including an embedded app server (Tomcat in this case). This is what is sometimes referred to as an "uber/fat" jar file.
