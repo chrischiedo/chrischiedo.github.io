@@ -38,7 +38,7 @@ There are a few different ways of running the app locally.
 
 The first step is to clone the project:
 ```
-$ git clone https://github.com/chris-chiedo/books-rest-api-spring-boot.git
+$ git clone https://github.com/chrischiedo/books-rest-api-spring-boot.git
 ```
 #### Option 1:
 After cloning the project, change into the project's root directory and then build and run the project using the Spring Boot Maven plugin: 
