@@ -6,7 +6,7 @@ comments: false
 
 > _“Books are the quietest and most constant of friends; they are the most accessible and wisest of counselors, and the most patient of teachers.”_ ~ Charles William Eliot (1834–1926), American academic and former President of Harvard University.
 
-![Tech books library photo](/assets/img/books-library/books-lib.jpg "Library of technical books")
+<!-- ![Tech books library photo](/assets/img/books-library/books-lib.jpg "Library of technical books") -->
 
 Here is a list of some of my favourite technical and non-technical books:
 
