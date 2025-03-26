@@ -9,6 +9,10 @@ comments: false
 
 This project implements a lexer, parser, and an evaluator for a minimal subset of Scheme. It is written from scratch in Rust.
 
+## [Books API](https://github.com/chrischiedo/books-rest-api-spring-boot)
+
+This project implements a simple REST API using [Spring Boot](https://spring.io/projects/spring-boot).
+
 ## [Employee API](https://github.com/chrischiedo/quarkus-employee-rest-api)
 
 This project implements a simple REST API using the [Quarkus](https://quarkus.io/) framework.
@@ -22,7 +26,7 @@ This is a high-level guide for Java developers who are interested in learning Ru
 
 ## Open-Source Contributions
 
-Below are a sample of my open-source contributions:
+Below is a sample of my open-source contributions:
 
 - quarkusio/quarkus: [Make flyway and jdbc driver extensions work without any other required dependencies #41862](https://github.com/quarkusio/quarkus/pull/41862)
 - build-trust/ockam: [docs(rust): add examples section to ockam help commands #3350](https://github.com/build-trust/ockam/pull/3350)
