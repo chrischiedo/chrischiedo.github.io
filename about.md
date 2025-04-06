@@ -4,6 +4,8 @@ title: About
 comments: false
 ---
 
+Hi there! A very warm welcome to my blog. I’m Chrispine Chiedo, a software engineer and [Rust](https://www.rust-lang.org/) enthusiast. I am also an open-source contributor.
+
 My background is in Electrical and Electronics Engineering. I specifically majored in Computer Engineering, which was offered as a sub-discipline in the EE department.
 
 I have spent a good chunk of my professional life working in the technical training space: as a software development trainer, electrical engineering instructor, a technical curriculum developer, and a technical content developer. I have also served as a Head of Department (ICT and Engineering) in a technical training college.
