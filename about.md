@@ -4,7 +4,7 @@ title: About
 comments: false
 ---
 
-Hi there! A very warm welcome to my blog. I’m Chrispine Chiedo, a software engineer and [Rust](https://www.rust-lang.org/) enthusiast. I am also an open-source contributor.
+Hi there! A very warm welcome to my blog. I’m Chrispine Chiedo, a software engineer, enthusiastic about [Rust](https://www.rust-lang.org/) and Compilers. I am also an (occasional) open-source contributor.
 
 My background is in Electrical and Electronics Engineering. I specifically majored in Computer Engineering, which was offered as a sub-discipline in the EE department.
 
@@ -22,7 +22,7 @@ Prior to shifting into the industry, I worked in academia, as an engineering ins
 
 I am an **AWS Certified Cloud Practitioner**. I have also authored a [high-level guide](https://chrischiedo.github.io/rust-for-java-devs/) for Java developers who are interested in learning Rust.
 
-I am currently working as  a freelance software engineer and an open-source contributor (here's an [example of a contribution](https://github.com/quarkusio/quarkus/pull/41862) that I made to the [Quarkus project](https://github.com/quarkusio) that I'm especially proud of).
+I am currently working as  a freelance software engineer and an open-source contributor (here's an [example of a contribution](https://github.com/googleapis/google-cloud-rust/pull/1946) that I made to the [Google Cloud Rust Client Libraries project](https://github.com/googleapis/google-cloud-rust) that I'm especially proud of).
 
 I'm naturally a **very curious person**, and I particularly enjoy learning new things every day. **I feel energized when working with small, highly motivated teams that care deeply about delivering business results**.
 
