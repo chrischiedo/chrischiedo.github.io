@@ -7,7 +7,7 @@ comments: false
 
 ## [Rust for Java Developers](https://chrischiedo.github.io/rust-for-java-devs/)
 
-This is a high-level guide for Java developers who are interested in learning Rust.
+This is a high-level guide for Java developers who are interested in learning [Rust](https://www.rust-lang.org/).
 
 ## [RustyScm](https://github.com/chrischiedo/rustyscm) – A minimal Scheme Interpreter in Rust
 
@@ -17,19 +17,27 @@ This project implements a lexer, parser, and an evaluator for a minimal subset o
 
 This project implements a simple REST API using [Spring Boot](https://spring.io/projects/spring-boot).
 
-## [Employee API](https://github.com/chrischiedo/quarkus-employee-rest-api)
+## [Employees API](https://github.com/chrischiedo/quarkus-employee-rest-api)
 
-This project implements a simple REST API using the [Quarkus](https://quarkus.io/) framework.
+This project implements a simple REST API using [Quarkus](https://quarkus.io/).
 
 ---
 
-## Open-Source Contributions
+# Open-Source Contributions
 
 Below is a sample of my open-source contributions:
 
-- googleapis/google-cloud-rust: [cleanup: refactor headers in credentials #1741](https://github.com/googleapis/google-cloud-rust/pull/1741)
-- quarkusio/quarkus: [Make flyway and jdbc driver extensions work without any other required dependencies #41862](https://github.com/quarkusio/quarkus/pull/41862)
-- build-trust/ockam: [docs(rust): add examples section to ockam help commands #3350](https://github.com/build-trust/ockam/pull/3350)
-- quarkusio/quarkus: [Update CONTRIBUTING.md to have clear IDEA Formatting setup instructions #35448](https://github.com/quarkusio/quarkus/pull/35448)
-- quarkusio/quarkusio.github.io: [Update header navigation with new 'Why Quarkus' tab #1763](https://github.com/quarkusio/quarkusio.github.io/pull/1763)
+### [googleapis/google-cloud-rust](https://github.com/googleapis/google-cloud-rust)
+
+- #1946: [refactor(wkt): refactor `wkt::message::Message` trait to use new design](https://github.com/googleapis/google-cloud-rust/pull/1946)
+- #1741: [cleanup: refactor headers in credentials](https://github.com/googleapis/google-cloud-rust/pull/1741)
+- #1843: [Consider using idiomatic Rust naming for CredentialsTrait in credentials](https://github.com/googleapis/google-cloud-rust/issues/1843)
+- #1723: [docs: fix typos in architecture document](https://github.com/googleapis/google-cloud-rust/pull/1723)
+- #1769: [docs: fix typos in setup dev environment document](https://github.com/googleapis/google-cloud-rust/pull/1769)
+- #1823: [docs: fix typos in user guide](https://github.com/googleapis/google-cloud-rust/pull/1823)
+
+### [quarkusio/quarkus](https://github.com/quarkusio/quarkus)
+
+- #41862: [Make flyway and jdbc driver extensions work without any other required dependencies](https://github.com/quarkusio/quarkus/pull/41862)
+- #35448: [Update CONTRIBUTING.md to have clear IDEA Formatting setup instructions](https://github.com/quarkusio/quarkus/pull/35448)
 
