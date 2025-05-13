@@ -29,6 +29,7 @@ Below is a sample of my open-source contributions:
 
 ### [googleapis/google-cloud-rust](https://github.com/googleapis/google-cloud-rust)
 
+- #2084: [refactor(auth): replace create_api_key_credentials with builder](https://github.com/googleapis/google-cloud-rust/pull/2084)
 - #1946: [refactor(wkt): refactor `wkt::message::Message` trait to use new design](https://github.com/googleapis/google-cloud-rust/pull/1946)
 - #1741: [cleanup: refactor headers in credentials](https://github.com/googleapis/google-cloud-rust/pull/1741)
 - #1843: [Consider using idiomatic Rust naming for CredentialsTrait in credentials](https://github.com/googleapis/google-cloud-rust/issues/1843)
