@@ -29,13 +29,14 @@ Below is a sample of my open-source contributions:
 
 ### [googleapis/google-cloud-rust](https://github.com/googleapis/google-cloud-rust)
 
+- #2255: [cleanup(storage): refactor repeated auth headers in storage client](https://github.com/googleapis/google-cloud-rust/pull/2255)
 - #2084: [refactor(auth): replace create_api_key_credentials with builder](https://github.com/googleapis/google-cloud-rust/pull/2084)
 - #1946: [refactor(wkt): refactor `wkt::message::Message` trait to use new design](https://github.com/googleapis/google-cloud-rust/pull/1946)
-- #1741: [cleanup: refactor headers in credentials](https://github.com/googleapis/google-cloud-rust/pull/1741)
 - #1843: [Consider using idiomatic Rust naming for CredentialsTrait in credentials](https://github.com/googleapis/google-cloud-rust/issues/1843)
-- #1723: [docs: fix typos in architecture document](https://github.com/googleapis/google-cloud-rust/pull/1723)
-- #1769: [docs: fix typos in setup dev environment document](https://github.com/googleapis/google-cloud-rust/pull/1769)
 - #1823: [docs: fix typos in user guide](https://github.com/googleapis/google-cloud-rust/pull/1823)
+- #1769: [docs: fix typos in setup dev environment document](https://github.com/googleapis/google-cloud-rust/pull/1769)
+- #1741: [cleanup: refactor headers in credentials](https://github.com/googleapis/google-cloud-rust/pull/1741)
+- #1723: [docs: fix typos in architecture document](https://github.com/googleapis/google-cloud-rust/pull/1723)
 
 ### [quarkusio/quarkus](https://github.com/quarkusio/quarkus)
 
