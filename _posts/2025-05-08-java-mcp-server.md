@@ -39,7 +39,7 @@ MCP servers typically provide three main types of capabilities:
 - **Resources**: File-like data that can be read by clients (like file contents or API responses)
 - **Prompts**: Pre-written templates that help users accomplish specific tasks
 
-In this tutorial, we will primarily focus on _tools_.
+In this tutorial, we are mainly going to focus on _tools_.
 
 ## What we will build
 
@@ -90,15 +90,15 @@ src/
 │   |       ├── model/
 │   |       |   └── WeatherDataResponse.java
 │   |       ├── service/
-│   |       |   └── WeatherService.java          # Weather service implementation with MCP tool
-│   │       └── WeatherMcpServerApplication.java # Main application class with tool registration
+│   |       |   └── WeatherService.java
+│   │       └── WeatherMcpServerApplication.java
 │   └── resources/
-│       └── application.properties               # Server and transport configuration
+│       └── application.properties
 └── test/
     └── java/
         └── dev/chiedo/weathermcpserver/
-│   |       ├── service/
-│   |       |   └── WeatherServiceTest.java
+            ├── service/
+            |   └── WeatherServiceTest.java
             └── WeatherMcpServerApplicationTests.java
 ```
 
@@ -220,18 +220,10 @@ spring.ai.mcp.server.version=0.0.1
 To build the project, run the following:
 
 ```bash
-./mvnw clean install -DskipTests
+./mvnw clean install
 ```
 
 This will generate a `weather-mcp-server-0.0.1-SNAPSHOT.jar` file in the `target` directory.
-
-## Running tests
-
-To run the tests, use the following:
-
-```bash
-./mvnw test
-```
 
 ## Running the MCP server
 
