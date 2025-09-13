@@ -29,6 +29,7 @@ Below is a sample of my open-source contributions:
 
 ### [googleapis/google-cloud-rust](https://github.com/googleapis/google-cloud-rust)
 
+- #2522: [cleanup(gax): idiomatic return type for PollingErrorPolicy::on_in_progress()](https://github.com/googleapis/google-cloud-rust/pull/2522)
 - #2255: [cleanup(storage): refactor repeated auth headers in storage client](https://github.com/googleapis/google-cloud-rust/pull/2255)
 - #2084: [refactor(auth): replace create_api_key_credentials with builder](https://github.com/googleapis/google-cloud-rust/pull/2084)
 - #1946: [refactor(wkt): refactor `wkt::message::Message` trait to use new design](https://github.com/googleapis/google-cloud-rust/pull/1946)
