@@ -4,13 +4,15 @@ title: About
 comments: false
 ---
 
-Hi there! A very warm welcome to my blog. I’m Chrispine Chiedo, a software engineer, enthusiastic about [Rust](https://www.rust-lang.org/) and Compilers. I am also an (occasional) open-source contributor.
+Hi there! A very warm welcome to my blog. I’m Chrispine Chiedo, a software engineer, engineering manager, and a technical consultant. I am enthusiastic about [Rust](https://www.rust-lang.org/), Compilers, and Databases. I am also an (occasional) open-source contributor.
 
 My background is in Electrical and Electronics Engineering. I specifically majored in Computer Engineering, which was offered as a sub-discipline in the EE department.
 
 I have spent a good chunk of my professional life working in the technical training space: as a software development trainer, electrical engineering instructor, a technical curriculum developer, and a technical content developer. I have also served as a Head of Department (ICT and Engineering) in a technical training college.
 
 A couple of years ago I decided to transition into the software engineering space. **I am mainly interested in distributed/backend systems and programming languages/compilers**. So far, I've mostly worked with **Python**, **Java**, and **Rust**.
+
+Most recently, I've been working as an **Engineering Manager** at an EdTech company, where I have led a team of software engineers (backend and frontend) working on three different products. Our tech stack is Java/Spring Boot for backend and Angular for frontend.
 
 In one of my previous roles as a developer, I worked for an insurance brokerage firm as a consultant software engineer (short-term contract). I was part of a team that worked on an **insurance claims application** (I specifically worked on the cards management service). The app was based on a **microservices architecture**, with about 25 different services. Some of the technologies that we used are: **Java, Spring Boot, Spring Cloud, RabbitMQ, Liquibase, Camunda (business workflow automation), ArgoCD, Azure DevOps, and Azure Kubernetes Service (AKS)**.
 
@@ -22,7 +24,7 @@ Prior to shifting into the industry, I worked in academia, as an engineering ins
 
 I am an **AWS Certified Cloud Practitioner**. I have also authored a [high-level guide](https://chrischiedo.github.io/rust-for-java-devs/) for Java developers who are interested in learning Rust.
 
-I am currently working as  a freelance software engineer and an open-source contributor (here's an [example of a contribution](https://github.com/googleapis/google-cloud-rust/pull/1946) that I made to the [Google Cloud Rust Client Libraries project](https://github.com/googleapis/google-cloud-rust) that I'm especially proud of).
+I also work as a **technical consultant** (freelance) and an open-source contributor (here's an [example of a contribution](https://github.com/googleapis/google-cloud-rust/pull/1946) that I made to the [Google Cloud Rust Client Libraries project](https://github.com/googleapis/google-cloud-rust) that I'm especially proud of).
 
 I'm naturally a **very curious person**, and I particularly enjoy learning new things every day. **I feel energized when working with small, highly motivated teams that care deeply about delivering business results**.
 
