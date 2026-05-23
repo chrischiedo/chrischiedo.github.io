@@ -10,7 +10,7 @@ My background is in Electrical and Electronics Engineering. I specifically major
 
 I have spent a good chunk of my professional life working in the technical training space: as a software development trainer, electrical engineering instructor, a technical curriculum developer, and a technical content developer. I have also served as a Head of Department (ICT and Engineering) in a technical training college.
 
-A couple of years ago I decided to transition into the software engineering space. **I am mainly interested in distributed/backend systems and programming languages/compilers**. So far, I've mostly worked with **Python**, **Java**, and **Rust**.
+A couple of years ago I decided to transition into the software engineering space. **I am mainly interested in web backend/distributed systems, programming languages/compilers, and databases**. So far, I've mostly worked with **Python**, **Java**, and **Rust**.
 
 Most recently, I've been working as an **Engineering Manager** at an EdTech company, where I have led a team of software engineers (backend and frontend) working on three different products. Our tech stack is Java/Spring Boot for backend and Angular for frontend.
 
